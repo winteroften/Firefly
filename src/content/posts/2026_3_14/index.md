@@ -16,7 +16,9 @@ image: ./math1.jpeg
 
 例题：
 
-$$ x \frac{dy}{dx} + 2 \sqrt{xy} = y \quad (x < 0) $$
+$$
+x \frac{dy}{dx} + 2 \sqrt{xy} = y \quad (x < 0) 
+$$
 
 # 踩坑过程
 
@@ -32,14 +34,18 @@ $$ x \frac{dy}{dx} + 2 \sqrt{xy} = y \quad (x < 0) $$
 信科241的同学是这么回答的：
 
 等式两边同时除以 $x$ 得到：
-$$ \frac{dy}{dx} + 2 \sqrt{\frac{y}{x}} = \frac{y}{x} \quad (x < 0) $$
+$$
+\frac{dy}{dx} + 2 \sqrt{\frac{y}{x}} = \frac{y}{x} \quad (x < 0) 
+$$
 
 他回答的非常迅速，但我觉得这道题并没有那么简单，换言之——有坑。
 为什么题目中会有一个 $x < 0$ 的条件呢？为什么 $x$ 不是 $> 0$ 呢？
 
 老师笑了笑，又问了一遍那位同学。那位同学还是相信自己原来的答案。
 老师翻动了一下PPT，惊人的，式子中间的+号变成了-号：
-$$ \frac{dy}{dx} - 2 \sqrt{\frac{y}{x}} = \frac{y}{x} \quad (x < 0) $$
+$$ 
+\frac{dy}{dx} - 2 \sqrt{\frac{y}{x}} = \frac{y}{x} \quad (x < 0) 
+$$
 
 这个时候肯定有人觉得答案给错了，但果真吗？
 
