@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url);
     let path = url.pathname;
 
-    // Astro 静态资源处理逻辑
+    // 自动补齐 Astro 的路径 (例如把 /about 变成 /about/index.html)
     if (path.endsWith("/")) {
       path += "index.html";
     } else if (!path.includes(".")) {
@@ -16,6 +16,7 @@ export default {
       if (res.status !== 404) return res;
     }
 
-    return new Response("404 Not Found", { status: 404 });
+    // 如果找不到文件，最后尝试一次原始请求（处理图片等静态资源）
+    return env.ASSETS ? await env.ASSETS.fetch(request) : new Response("Not Found", { status: 404 });
   },
 };
