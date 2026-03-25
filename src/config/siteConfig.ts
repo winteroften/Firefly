@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "风会记得一朵花的香",
 
 	// 站点 URL
-	site_url: "https://blog.natsusoda.com",
+	site_url: "https://blog.winteroften.com",
 
 	// 站点描述
 	description:
