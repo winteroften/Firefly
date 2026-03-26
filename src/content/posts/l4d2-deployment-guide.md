@@ -21,8 +21,8 @@ category: "游戏服务器"
 
 配置要求：
 - CPU：2核+（单核性能越强越好）
-- 内存：8GB+
-- 带宽：10-15Mbps
+- 内存：2GB+
+- 带宽：5-15Mbps
 
 ### 2. 连接服务器
 
@@ -48,7 +48,7 @@ chmod 777 init.sh
 
 ### 6. 按步骤操作
 
-- 按 `1`：安装依赖（自动下载 Docker 和服务器文件）
+- 按 `0`：自动下载依赖和服务器文件
 - 按 `3`：启动服务器
 
 **完成！** ✅
@@ -61,9 +61,9 @@ chmod 777 init.sh
 
 **Windows：** 下载 [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
-**Linux：**
+**Linux（推荐用 linuxmirrors 一键安装并换源）：**
 ```bash
-curl -fsSL https://get.docker.com | sudo sh
+bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
 ```
 
 ### 2. 创建配置文件
@@ -135,20 +135,22 @@ bash <(curl -sL https://gh.dpik.top/https://raw.githubusercontent.com/LaoYutang/
 
 ---
 
-## 🌍 镜像下载慢？一键换源
+## 🌍 下载慢？一键安装 Docker 并换源
 
-### Linux
+### Linux 推荐：linuxmirrors 一键脚本
+
+使用 [linuxmirrors.cn](https://linuxmirrors.cn) 提供的脚本，**自动安装 Docker 并配置国内镜像源**，一步到位：
 
 ```bash
-sudo mkdir -p /etc/docker
-sudo tee /etc/docker/daemon.json > /dev/null <<EOF
-{
-  "registry-mirrors": ["https://registry.aliyuncs.com"]
-}
-EOF
-sudo systemctl daemon-reload
-sudo systemctl restart docker
+bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
 ```
+
+脚本会自动：
+- ✅ 安装 Docker
+- ✅ 配置国内镜像源（自动选择最快的源）
+- ✅ 启动 Docker 服务
+
+> 如果已安装 Docker 只想换源，运行同一条命令，选择"仅更换镜像源"即可。
 
 ### Windows
 
