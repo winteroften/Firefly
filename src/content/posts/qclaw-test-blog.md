@@ -1,7 +1,7 @@
 ---
 title: "QClaw 自动化测试博客"
 description: "这是一篇由 QClaw 自动生成的测试博客文章"
-pubDate: 2025-03-26
+published: 2025-03-26
 tags: ["qclaw", "test", "automation"]
 ---
 
