@@ -1,15 +1,15 @@
 ---
-title: "L4D2 服务器部署 - 三合一快速指南"
-description: "一键脚本、Docker、Linux 三种方式，选择适合你的部署方案"
+title: "L4D2 服务器部署完全指南"
+description: "游戏服与管理面板分开/合并部署，多种方式任你选择"
 published: 2026-03-26
-updated: 2026-03-26
-tags: ["l4d2", "游戏服务器", "docker", "linux", "一键脚本", "快速部署"]
+updated: 2026-03-27
+tags: ["l4d2", "游戏服务器", "docker", "linux", "一键脚本", "分离部署"]
 category: "游戏服务器"
 ---
 
-# L4D2 服务器部署 - 三合一快速指南
+# L4D2 服务器部署完全指南
 
-> 三种部署方式，选择最适合你的！
+> 游戏服与管理面板可分开部署，灵活选择适合你的方案！
 
 ---
 
@@ -55,7 +55,11 @@ chmod 777 init.sh
 
 ---
 
-## 方案二：Docker 快速启动（Windows/Linux）
+## 方案二：Docker 合并部署（游戏服+管理面板）
+
+### 适用场景
+- 一台服务器同时运行游戏和管理面板
+- 最简单的一站式方案
 
 ### 1. 安装 Docker
 
@@ -116,7 +120,111 @@ docker-compose up -d
 
 ---
 
-## 方案三：一键脚本启动（自动化）
+## 方案三：分离部署（游戏服与管理面板分开）
+
+### 适用场景
+- 已有 L4D2 服务器，只想添加管理面板
+- 游戏服和管理面板运行在不同服务器上
+- 需要远程管理多台游戏服务器
+
+### 情况 A：已有游戏服务器，只装管理面板
+
+#### 1. 确定游戏服务器信息
+
+你需要知道：
+- 游戏服务器 IP 地址（如 `192.168.1.100`）
+- 游戏端口（默认 `27015`）
+- RCON 密码（在 `server.cfg` 中设置）
+
+#### 2. 安装 Docker
+
+```bash
+bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
+```
+
+#### 3. 启动管理面板
+
+```bash
+docker run -d \
+  --name l4d2-manager \
+  --restart unless-stopped \
+  --net host \
+  -v /path/to/l4d2/left4dead2:/left4dead2 \
+  -v l4d2-plugins:/plugins \
+  -v /proc:/host/proc:ro \
+  -e L4D2_MANAGER_PORT=27020 \
+  -e L4D2_MANAGER_PASSWORD=admin123 \
+  -e L4D2_GAME_PATH=/left4dead2 \
+  -e L4D2_RCON_URL=192.168.1.100:27015 \
+  -e L4D2_RCON_PASSWORD=你的RCON密码 \
+  -e L4D2_RESTART_BY_RCON=true \
+  laoyutang/l4d2-manager-next:latest
+```
+
+**参数说明：**
+- `/path/to/l4d2/left4dead2`：改为实际的游戏目录路径
+- `192.168.1.100:27015`：改为实际的游戏服务器 IP 和端口
+- `你的RCON密码`：改为实际的 RCON 密码
+
+#### 4. 访问管理后台
+
+打开浏览器：`http://管理面板服务器IP:27020`
+
+**完成！** ✅
+
+### 情况 B：游戏服和管理面板在不同服务器
+
+#### 游戏服务器（A服务器）
+
+按**方案一**或**方案二**部署游戏服务器，确保：
+- 防火墙开放 27015 端口（UDP）
+- 设置了 RCON 密码
+
+#### 管理面板服务器（B服务器）
+
+按**情况 A**的步骤，将 `L4D2_RCON_URL` 指向 A 服务器的公网 IP。
+
+**注意：** 如果游戏服务器有防火墙，需要允许管理面板服务器的 IP 访问 27015 端口。
+
+### 情况 C：管理面板在本地，远程管理云服务器
+
+#### 1. 在云服务器上部署游戏服
+
+按**方案一**部署，确保：
+- 开放 27015 端口（UDP）给公网
+- 开放 27015 端口（TCP）给管理面板连接 RCON
+
+#### 2. 在本地 Windows 部署管理面板
+
+```powershell
+# 使用 Docker Desktop
+docker run -d `
+  --name l4d2-manager `
+  --restart unless-stopped `
+  -p 27020:27020 `
+  -v l4d2-plugins:/plugins `
+  -e L4D2_MANAGER_PASSWORD=admin123 `
+  -e L4D2_RCON_URL=云服务器公网IP:27015 `
+  -e L4D2_RCON_PASSWORD=你的RCON密码 `
+  -e L4D2_RESTART_BY_RCON=true `
+  laoyutang/l4d2-manager-next:latest
+```
+
+#### 3. 访问本地管理面板
+
+打开浏览器：`http://localhost:27020`
+
+即可远程管理云服务器上的游戏服！
+
+**完成！** ✅
+
+---
+
+## 方案四：全自动一键脚本
+
+### 适用场景
+- 最懒人的方式，一条命令搞定一切
+- 适合快速体验
 
 ### Linux 用户
 
@@ -220,7 +328,7 @@ vim init.sh
 DEFAULT_PORT="27015"        # 游戏端口
 DEFAULT_MAP="c2m1_highway"  # 开始地图
 DEFAULT_MODE="coop"         # 游戏模式
-DEFAULT_TICK="66"           # Tick 值
+DEFAULT_TICK="100"          # Tick 值（根据实际情况修改）
 ```
 
 按 `i` 编辑，`Esc` 后输入 `:wq` 保存
@@ -243,6 +351,12 @@ docker-compose restart
 **Q：无法访问管理后台**
 - 检查防火墙是否开放 27020 端口
 - 查看日志：`docker logs l4d2-manager`
+- **分离部署时**：确认 `L4D2_RCON_URL` 指向正确的游戏服务器 IP
+
+**Q：管理面板显示"无法连接到 RCON"**
+- 确认游戏服务器的 RCON 密码正确
+- 确认防火墙允许管理面板 IP 访问 27015 端口（TCP）
+- 确认游戏服务器已启动并正常运行
 
 **Q：地图上传失败**
 - 确认文件格式（.vpk 或 .zip）
@@ -259,11 +373,12 @@ docker-compose restart
 
 ## 📊 方案对比
 
-| 方案 | 优点 | 缺点 | 适用 |
-|------|------|------|------|
-| **Linux 脚本** | 自动化程度高、配置灵活 | 需要 Linux 知识 | 云服务器用户 |
-| **Docker** | 跨平台、隔离性好 | 需要安装 Docker | Windows/Linux |
-| **一键脚本** | 最简单、全自动 | 定制性低 | 快速上手 |
+| 方案 | 优点 | 缺点 | 适用场景 |
+|------|------|------|---------|
+| **方案一：Linux 脚本** | 自动化程度高、配置灵活 | 需要 Linux 知识 | 云服务器用户 |
+| **方案二：Docker 合并** | 一站式、跨平台 | 需要 Docker | 单服务器部署 |
+| **方案三：分离部署** | 灵活、可管理多服 | 配置稍复杂 | 已有游戏服/多服管理 |
+| **方案四：全自动脚本** | 最简单、全自动 | 定制性低 | 快速体验 |
 
 ---
 
