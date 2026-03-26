@@ -345,6 +345,193 @@ docker-compose restart
 
 ---
 
+## 🔌 插件安装教程（以豆瓣酱整合包为例）
+
+### 什么是豆瓣酱整合包？
+
+豆瓣酱整合包是国内流行的 L4D2 插件整合包，包含：
+- ✅ SourceMod + MetaMod 插件平台
+- ✅ 防作弊插件
+- ✅ 服务器管理插件
+- ✅ 多种游戏模式插件
+- ✅ 统计和排行榜插件
+
+### 安装方式一：通过管理面板上传（推荐）
+
+#### 1. 下载豆瓣酱整合包
+
+前往豆瓣酱整合包发布页面下载最新版本（通常是 .zip 或 .tar.gz 格式）
+
+#### 2. 解压并准备上传
+
+将下载的整合包解压，找到 `left4dead2` 文件夹内的内容：
+```
+addons/          # 插件文件
+cfg/             # 配置文件
+materials/       # 材质文件
+models/          # 模型文件
+sound/           # 声音文件
+```
+
+#### 3. 通过管理面板上传
+
+**方式 A：直接上传压缩包**
+1. 打开管理后台 `http://your_server_ip:27020`
+2. 点击"文件管理"或"插件管理"
+3. 拖拽豆瓣酱整合包压缩文件上传
+4. 等待自动解压完成
+
+**方式 B：分批上传（如果文件太大）**
+1. 将整合包分成多个小压缩包
+2. 逐个上传到 `left4dead2` 目录
+3. 在服务器上解压：
+```bash
+cd /path/to/l4d2/left4dead2
+unzip 豆瓣酱整合包.zip
+```
+
+#### 4. 重启服务器
+
+上传完成后，在管理面板点击"重启服务器"或执行：
+```bash
+docker restart l4d2
+```
+
+### 安装方式二：直接复制到服务器（Linux）
+
+#### 1. 进入服务器游戏目录
+
+```bash
+# Docker 部署
+cd /var/lib/docker/volumes/l4d2-data/_data
+
+# 或 Linux 原生部署
+cd ~/l4d2/left4dead2
+```
+
+#### 2. 下载整合包
+
+```bash
+# 下载豆瓣酱整合包（示例链接，请替换为实际链接）
+wget https://example.com/doubanjiang-l4d2-plugins.zip
+
+# 解压
+unzip doubanjiang-l4d2-plugins.zip
+
+# 删除压缩包
+rm doubanjiang-l4d2-plugins.zip
+```
+
+#### 3. 重启容器
+
+```bash
+docker restart l4d2
+```
+
+### 安装方式三：使用 Docker 卷映射（高级）
+
+#### 1. 准备本地插件目录
+
+在宿主机创建插件目录：
+```bash
+mkdir -p ~/l4d2-plugins/addons
+mkdir -p ~/l4d2-plugins/cfg
+```
+
+#### 2. 修改 docker-compose.yaml
+
+```yaml
+version: '3.8'
+volumes:
+  l4d2-data:
+services:
+  l4d2:
+    image: laoyutang/l4d2-pure:latest
+    restart: unless-stopped
+    ports:
+      - "27015:27015/udp"
+    volumes:
+      - l4d2-data:/l4d2/left4dead2
+      - ~/l4d2-plugins/addons:/l4d2/left4dead2/addons  # 映射插件目录
+      - ~/l4d2-plugins/cfg:/l4d2/left4dead2/cfg        # 映射配置目录
+    environment:
+      - L4D2_RCON_PASSWORD=123456
+```
+
+#### 3. 将插件文件放入本地目录
+
+```bash
+# 将豆瓣酱整合包的 addons 文件夹内容复制到
+~/l4d2-plugins/addons/
+
+# 将 cfg 文件夹内容复制到
+~/l4d2-plugins/cfg/
+```
+
+#### 4. 重启服务
+
+```bash
+docker-compose down
+docker-compose up -d
+```
+
+### 插件配置
+
+#### 1. 管理员配置
+
+编辑 `admins_simple.ini` 添加管理员：
+```bash
+# 在服务器上执行
+cd /path/to/l4d2/left4dead2/addons/sourcemod/configs
+nano admins_simple.ini
+```
+
+添加格式：
+```
+"STEAM_0:1:12345678" "99:z"  # SteamID 和权限
+```
+
+#### 2. 常用插件命令
+
+安装完成后，在游戏中按 `Y` 输入：
+```
+!admin          # 打开管理员菜单
+!sm plugins list # 查看已加载的插件列表
+!sm reload      # 重载插件
+```
+
+#### 3. 插件配置文件
+
+大部分插件的配置文件在：
+```
+left4dead2/cfg/sourcemod/
+left4dead2/addons/sourcemod/configs/
+```
+
+### 常见问题
+
+**Q：插件安装后游戏崩溃**
+- 检查插件版本是否匹配当前游戏版本
+- 逐个禁用插件排查冲突
+- 查看 `left4dead2/addons/sourcemod/logs/` 中的错误日志
+
+**Q：管理员命令无法使用**
+- 确认 SteamID 格式正确
+- 确认 admins_simple.ini 格式正确
+- 重启服务器使配置生效
+
+**Q：部分插件功能不生效**
+- 检查插件依赖是否完整
+- 检查配置文件是否正确
+- 查看插件日志排查错误
+
+**Q：如何更新插件？**
+- 下载新版整合包
+- 覆盖原有文件
+- 重启服务器
+
+---
+
 **选择适合你的方案，开始部署吧！** 🚀
 
 *本文由 QClaw 自动生成*
