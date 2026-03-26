@@ -375,20 +375,11 @@ sound/           # 声音文件
 
 #### 3. 通过管理面板上传
 
-**方式 A：直接上传压缩包**
+**直接上传压缩包**
 1. 打开管理后台 `http://your_server_ip:27020`
 2. 点击"文件管理"或"插件管理"
-3. 拖拽豆瓣酱整合包压缩文件上传
+3. 拖拽豆瓣酱整合包压缩文件上传（理论上不用，面板会自带的）
 4. 等待自动解压完成
-
-**方式 B：分批上传（如果文件太大）**
-1. 将整合包分成多个小压缩包
-2. 逐个上传到 `left4dead2` 目录
-3. 在服务器上解压：
-```bash
-cd /path/to/l4d2/left4dead2
-unzip 豆瓣酱整合包.zip
-```
 
 #### 4. 重启服务器
 
@@ -406,21 +397,12 @@ docker restart l4d2
 cd /var/lib/docker/volumes/l4d2-data/_data
 
 # 或 Linux 原生部署
-cd ~/l4d2/left4dead2
+cd /root/steamcmd/test/left4dead2
 ```
 
 #### 2. 下载整合包
 
-```bash
-# 下载豆瓣酱整合包（示例链接，请替换为实际链接）
-wget https://example.com/doubanjiang-l4d2-plugins.zip
-
-# 解压
-unzip doubanjiang-l4d2-plugins.zip
-
-# 删除压缩包
-rm doubanjiang-l4d2-plugins.zip
-```
+Windows下载即可。
 
 #### 3. 重启容器
 
