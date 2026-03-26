@@ -1,23 +1,23 @@
 ---
-title: "L4D2 服务器快速部署 - 极简版"
-description: "3分钟快速上手，一键脚本部署 L4D2 服务器"
+title: "L4D2 服务器部署 - 一键脚本版"
+description: "一行命令启动 L4D2 服务器，自动化所有步骤"
 published: 2026-03-26
 updated: 2026-03-26
-tags: ["l4d2", "游戏服务器", "docker", "快速部署", "小白教程"]
+tags: ["l4d2", "游戏服务器", "一键脚本", "快速部署"]
 category: "游戏服务器"
 ---
 
-# L4D2 服务器快速部署 - 极简版
+# L4D2 服务器部署 - 一键脚本版
 
-> 最简单的 L4D2 服务器部署教程，3 分钟快速上手！
+> 一行命令，自动完成所有步骤！
 
 ---
 
-## 🚀 一键启动（推荐）
+## 🚀 Linux 一键启动
 
-### Linux 用户 - 一键安装脚本
+### 最简单的方式
 
-复制以下命令，在终端中运行：
+复制以下命令，在 Linux 终端中运行：
 
 ```bash
 bash <(curl -sL https://raw.githubusercontent.com/LaoYutang/l4d2-server-next/master/manifest/install/install.sh)
@@ -30,81 +30,60 @@ bash <(curl -sL https://gh.dpik.top/https://raw.githubusercontent.com/LaoYutang/
 ```
 
 脚本会自动：
+- ✅ 检测系统环境
 - ✅ 安装 Docker
 - ✅ 下载 L4D2 服务器文件
-- ✅ 启动游戏服务器和管理后台
+- ✅ 启动游戏服务器
+- ✅ 启动 Web 管理后台
 - ✅ 显示访问地址和密码
 
-**完成后访问：** `http://your_server_ip:27020`
+**等待 3-5 分钟，完成！**
 
 ---
 
-## 🐳 Docker 快速启动（Windows/Linux）
+## 📝 脚本做了什么？
 
-### 第一步：安装 Docker
+一键脚本自动执行以下步骤：
 
-**Windows：** 下载 [Docker Desktop](https://www.docker.com/products/docker-desktop)，双击安装
-
-**Linux：**
-```bash
-curl -fsSL https://get.docker.com | sudo sh
+```
+1. 检查 Docker 是否安装
+   ↓
+2. 如果未安装，自动安装 Docker
+   ↓
+3. 创建 docker-compose.yaml 配置文件
+   ↓
+4. 拉取 L4D2 镜像
+   ↓
+5. 启动游戏服务器容器
+   ↓
+6. 启动管理后台容器
+   ↓
+7. 显示访问信息
 ```
 
-### 第二步：一键启动
-
-创建文件夹 `l4d2`，在里面新建 `docker-compose.yaml`：
-
-```yaml
-version: '3.8'
-volumes:
-  l4d2-data:
-services:
-  l4d2:
-    image: laoyutang/l4d2-pure:latest
-    restart: unless-stopped
-    ports:
-      - "27015:27015/udp"
-    volumes:
-      - l4d2-data:/l4d2/left4dead2
-    environment:
-      - L4D2_RCON_PASSWORD=123456
-
-  l4d2-manager:
-    image: laoyutang/l4d2-manager-next:latest
-    restart: unless-stopped
-    ports:
-      - "27020:27020"
-    volumes:
-      - l4d2-data:/left4dead2
-    environment:
-      - L4D2_MANAGER_PASSWORD=admin123
-      - L4D2_RCON_URL=l4d2:27015
-      - L4D2_RCON_PASSWORD=123456
-      - L4D2_GAME_PATH=/left4dead2
-```
-
-### 第三步：启动
-
-```bash
-cd l4d2
-docker-compose up -d
-```
-
-### 第四步：访问
-
-打开浏览器：`http://localhost:27020`
-
-密码：`admin123`
-
-✅ **完成！**
+**你只需要：复制一行命令，按回车！**
 
 ---
 
-## 🌍 Docker 镜像下载慢？一键换源
+## 🌐 访问管理后台
 
-### Linux 用户
+脚本完成后，会显示类似信息：
 
-**阿里云源（推荐）：**
+```
+✅ L4D2 服务器已启动！
+📍 管理后台地址: http://your_server_ip:27020
+🔑 默认密码: admin123
+```
+
+打开浏览器访问该地址，输入密码登录。
+
+---
+
+## 🌍 镜像下载慢？换源
+
+如果脚本下载镜像很慢，先执行换源脚本：
+
+### 阿里云源（推荐）
 
 ```bash
 sudo mkdir -p /etc/docker
@@ -117,7 +96,9 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
-**清华源：**
+然后再运行一键脚本。
+
+### 清华源
 
 ```bash
 sudo mkdir -p /etc/docker
@@ -130,47 +111,30 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
-### Windows 用户
-
-1. 右键 Docker Desktop → Settings
-2. 找到 Docker Engine
-3. 添加：
-
-```json
-{
-  "registry-mirrors": ["https://registry.aliyuncs.com"]
-}
-```
-
-4. Apply & Restart
-
 ---
 
 ## 📝 常用命令
 
 ```bash
-# 查看状态
+# 查看容器状态
 docker-compose ps
 
 # 查看日志
 docker logs -f l4d2-manager
 
-# 重启
+# 重启服务
 docker-compose restart
 
-# 停止
+# 停止服务
 docker-compose down
 
-# 启动
+# 启动服务
 docker-compose up -d
 ```
 
 ---
 
-## 🎮 管理后台操作
-
-### 登录
-访问 `http://localhost:27020`，输入密码
+## 🎮 管理后台基本操作
 
 ### 上传地图
 1. 点击"地图管理"
@@ -182,31 +146,48 @@ docker-compose up -d
 2. 点击"切换"
 
 ### 查看玩家
-点击"玩家列表"查看在线玩家
+点击"玩家列表"
 
 ### 发送指令
-点击"RCON 控制台"输入游戏指令
+点击"RCON 控制台"输入指令
 
 ---
 
 ## ⚙️ 修改配置
 
-### 修改密码
+脚本生成的配置文件位置：
 
-编辑 `docker-compose.yaml`：
+```bash
+# 查看配置
+cat docker-compose.yaml
 
-```yaml
-environment:
-  - L4D2_MANAGER_PASSWORD=你的新密码
-  - L4D2_RCON_PASSWORD=你的新密码
+# 编辑配置
+nano docker-compose.yaml
 ```
 
-重启：
+修改后重启：
+
 ```bash
 docker-compose restart
 ```
 
-### 修改难度
+### 常用配置修改
+
+**修改管理后台密码：**
+
+```yaml
+environment:
+  - L4D2_MANAGER_PASSWORD=你的新密码
+```
+
+**修改游戏服务器密码：**
+
+```yaml
+environment:
+  - L4D2_RCON_PASSWORD=你的新密码
+```
+
+**修改难度：**
 
 在 RCON 控制台输入：
 ```
@@ -215,18 +196,16 @@ z_difficulty 2
 
 难度：1=简单, 2=普通, 3=困难, 4=专家
 
-### 修改最大玩家数
-
-```
-sv_maxplayers 8
-```
-
 ---
 
 ## 🆘 常见问题
 
+**Q：脚本卡住了**
+- 按 Ctrl+C 停止
+- 检查网络连接
+- 使用国内加速版本
+
 **Q：无法访问管理后台**
-- 检查容器是否运行：`docker-compose ps`
 - 检查防火墙是否开放 27020 端口
 - 查看日志：`docker logs l4d2-manager`
 
@@ -235,7 +214,8 @@ sv_maxplayers 8
 - 确认文件大小不超过 500MB
 
 **Q：下载镜像很慢**
-- 使用上面的"一键换源"脚本
+- 使用上面的"换源"脚本
+- 然后重新运行一键脚本
 
 **Q：容器一直重启**
 - 查看日志：`docker logs l4d2`
