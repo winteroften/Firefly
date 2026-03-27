@@ -38,14 +38,10 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	src: {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
-		desktop: [
-			"https://www.loliapi.com/acg/",
-		],
+		desktop: ["https://www.loliapi.com/acg/"],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
-		mobile: [
-			"https://www.loliapi.com/acg/",
-		],
+		mobile: ["https://www.loliapi.com/acg/"],
 	},
 	// Banner模式特有配置
 	banner: {
@@ -65,9 +61,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
-			subtitle: [
-				"风会记得一朵花的香",
-			],
+			subtitle: ["风会记得一朵花的香"],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
 			typewriter: {
