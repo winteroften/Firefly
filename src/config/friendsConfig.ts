@@ -33,12 +33,21 @@ export const friendsConfig: FriendLink[] = [
 		enabled: true, // 是否启用
 	},
 	{
+		title: "Laoyutang",
+		imgurl: "assets/images/laoyutang.png",
+		desc: "爱折腾的互联网开发者",
+		siteurl: "https://blog.laoyutang.cn",
+		tags: ["Blog"],
+		weight: 9,
+		enabled: true,
+	},
+	{
 		title: "Firefly Docs",
 		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
 		desc: "Firefly主题模板文档",
 		siteurl: "https://docs-firefly.cuteleaf.cn",
 		tags: ["Docs"],
-		weight: 9,
+		weight: 8,
 		enabled: true,
 	},
 	{
@@ -47,7 +56,7 @@ export const friendsConfig: FriendLink[] = [
 		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
 		siteurl: "https://github.com/withastro/astro",
 		tags: ["Framework"],
-		weight: 8,
+		weight: 7,
 		enabled: true,
 	},
 ];
