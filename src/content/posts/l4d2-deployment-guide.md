@@ -1,10 +1,17 @@
 ---
-title: "L4D2 服务器部署完全指南"
-description: "游戏服与管理面板分开/合并部署，多种方式任你选择"
+title: L4D2 服务器部署完全指南
+description: 游戏服与管理面板分开/合并部署，多种方式任你选择
 published: 2026-03-26
 updated: 2026-03-27
-tags: ["l4d2", "游戏服务器", "docker", "linux", "一键脚本", "分离部署"]
-category: "游戏服务器"
+tags:
+  - l4d2
+  - 游戏服务器
+  - docker
+  - linux
+  - 一键脚本
+  - 分离部署
+category: 游戏服务器
+image: api
 ---
 
 # L4D2 服务器部署完全指南

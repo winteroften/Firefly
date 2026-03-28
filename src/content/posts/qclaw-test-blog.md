@@ -7,6 +7,7 @@ tags:
   - test
   - automation
 category: qclaw
+image: api
 ---
 
 # QClaw 自动化测试博客
