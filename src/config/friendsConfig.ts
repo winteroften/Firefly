@@ -34,7 +34,7 @@ export const friendsConfig: FriendLink[] = [
 	},
 	{
 		title: "Laoyutang",
-		imgurl: "assets/images/laoyutang.png",
+		imgurl: "https://free.picui.cn/free/2026/03/29/69c8840441427.png",
 		desc: "爱折腾的互联网开发者",
 		siteurl: "https://blog.laoyutang.cn",
 		tags: ["Blog"],
