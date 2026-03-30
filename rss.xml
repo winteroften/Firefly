@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>十裡冬-随笔</title><description>风会记得一朵花的香</description><link>https://blog.winteroften.com/</link><templateTheme>Firefly</templateTheme><templateThemeVersion>6.8.10</templateThemeVersion><templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl><lastBuildDate>2026年3月30日 12:35:27</lastBuildDate><item><title>LinuxMirrors 一键换源脚本完全指南</title><link>https://blog.winteroften.com/posts/linuxmirrors-guide/</link><guid isPermaLink="true">https://blog.winteroften.com/posts/linuxmirrors-guide/</guid><description>告别手动编辑源文件，一行命令搞定 Linux 系统换源与 Docker 安装</description><pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;section&gt;&lt;h1&gt;LinuxMirrors 一键换源脚本完全指南&lt;a href=&quot;#linuxmirrors-一键换源脚本完全指南&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;blockquote&gt;&lt;p&gt;一行命令，10 秒完成换源。专为国内用户打造的开源运维神器。&lt;/p&gt;&lt;/blockquote&gt;&lt;hr /&gt;&lt;section&gt;&lt;h2&gt;写在前面&lt;a href=&quot;#写在前面&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;如果你是 Linux 用户，一定遇到过这样的烦恼：&lt;/p&gt;&lt;ul&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>十裡冬-随笔</title><description>风会记得一朵花的香</description><link>https://blog.winteroften.com/</link><templateTheme>Firefly</templateTheme><templateThemeVersion>6.8.10</templateThemeVersion><templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl><lastBuildDate>2026年3月30日 13:44:56</lastBuildDate><item><title>LinuxMirrors 一键换源脚本完全指南</title><link>https://blog.winteroften.com/posts/linuxmirrors-guide/</link><guid isPermaLink="true">https://blog.winteroften.com/posts/linuxmirrors-guide/</guid><description>告别手动编辑源文件，一行命令搞定 Linux 系统换源与 Docker 安装</description><pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;section&gt;&lt;h1&gt;LinuxMirrors 一键换源脚本完全指南&lt;a href=&quot;#linuxmirrors-一键换源脚本完全指南&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;blockquote&gt;&lt;p&gt;一行命令，10 秒完成换源。专为国内用户打造的开源运维神器。&lt;/p&gt;&lt;/blockquote&gt;&lt;hr /&gt;&lt;section&gt;&lt;h2&gt;写在前面&lt;a href=&quot;#写在前面&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;如果你是 Linux 用户，一定遇到过这样的烦恼：&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;新装的系统 &lt;code&gt;apt install&lt;/code&gt; 慢得要死&lt;/li&gt;
 &lt;li&gt;Docker 拉镜像超时、失败&lt;/li&gt;
 &lt;li&gt;手动换源要编辑一堆配置文件，改错了还不好恢复&lt;/li&gt;
@@ -329,7 +329,1086 @@
 &lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/SuperManito/LinuxMirrors&quot; target=&quot;_blank&quot;&gt;https://github.com/SuperManito/LinuxMirrors&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Gitee：&lt;a href=&quot;https://gitee.com/SuperManito/LinuxMirrors&quot; target=&quot;_blank&quot;&gt;https://gitee.com/SuperManito/LinuxMirrors&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;问题反馈：&lt;a href=&quot;https://github.com/SuperManito/LinuxMirrors/issues&quot; target=&quot;_blank&quot;&gt;GitHub Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/section&gt;&lt;/section&gt;</content:encoded></item><item><title>我的音乐口味：前十名歌单分析</title><link>https://blog.winteroften.com/posts/my-music-taste-top10/</link><guid isPermaLink="true">https://blog.winteroften.com/posts/my-music-taste-top10/</guid><description>从独立民谣到电子流行，从日系清新到欧美另类——探索我的音乐世界</description><pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;section&gt;&lt;h1&gt;我的音乐口味：前十名歌单分析&lt;a href=&quot;#我的音乐口味前十名歌单分析&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;blockquote&gt;&lt;p&gt;音乐是情绪的出口，也是灵魂的回响。这是一份对我最常听歌曲的私人记录与解读。&lt;/p&gt;&lt;/blockquote&gt;&lt;hr /&gt;&lt;section&gt;&lt;h2&gt;写在前面&lt;a href=&quot;#写在前面&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;听歌这件事，有时候比文字更诚实。一首单曲循环几十遍、上百遍的歌，往往藏着某段时期最真实的自己。今天整理了一下 QQ 音乐的”我喜欢”列表，挑出前十名，写下我对每首歌的理解。&lt;/p&gt;&lt;p&gt;这份歌单没有固定风格，从中文独立民谣到日语电子流行，从欧美另类摇滚到器乐纯音——听起来可能有点”杂”，但这恰恰是我真实的样子：&lt;strong&gt;不拘于标签，只忠于感受。&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;1. 🥇 为霜 — 羽肿&lt;a href=&quot;#1--为霜--羽肿&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;时长：&lt;/strong&gt; 04:56　&lt;strong&gt;风格：&lt;/strong&gt; 中文独立民谣 / 氛围流行&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;《为霜》&lt;/strong&gt; 是我的第一名，也是我单曲循环次数最多的歌曲之一。&lt;/p&gt;&lt;p&gt;“为霜”二字出自《诗经》——“蒹葭苍苍，白露为霜”。整首歌的气质便如这诗句一般：清冷、疏离、带着一点点不可触及的美感。&lt;/p&gt;&lt;p&gt;羽肿是国内很低调的独立音乐人，他的作品大多没有激烈的高潮和宣泄的情绪，而是用温柔的旋律和留白，构建出一个安静而辽阔的空间。《为霜》前奏的钢琴声缓缓铺开，像是清晨薄雾中的湖面，然后人声轻轻进入，讲述一个关于距离和思念的故事。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么喜欢：&lt;/strong&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;/section&gt;</content:encoded></item><item><title>服务器 CPU 性能大比拼：Geekbench 5 跑分全面解析</title><link>https://blog.winteroften.com/posts/server-cpu-geekbench5-benchmark/</link><guid isPermaLink="true">https://blog.winteroften.com/posts/server-cpu-geekbench5-benchmark/</guid><description>基于 YABS 测试脚本，深入对比 Intel Xeon 与 AMD EPYC 系列服务器的 CPU 单核/多核性能，并收录游戏云 CPU 权威跑分数据</description><pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;section&gt;&lt;h1&gt;服务器 CPU 性能大比拼：Geekbench 5 跑分全面解析&lt;a href=&quot;#服务器-cpu-性能大比拼geekbench-5-跑分全面解析&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;blockquote&gt;&lt;p&gt;选购服务器时，CPU 性能是核心指标。本文基于 Geekbench 5 跑分数据，对主流服务器 CPU 进行全面对比，帮你做出明智选择。&lt;/p&gt;&lt;/blockquote&gt;&lt;hr /&gt;&lt;section&gt;&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;选择云服务器时，最让人头疼的问题就是：&lt;strong&gt;这颗 CPU 到底强不强？&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;不同厂商、不同代际的 CPU 参数晦涩难懂，“2.6GHz 主频”和”3.0GHz 主频”到底差多少？8 核和 16 核该怎么选？AMD EPYC 和 Intel Xeon 哪个性价比更高？&lt;/p&gt;&lt;p&gt;Geekbench 5 是一个跨平台的 CPU 基准测试工具，通过统一的评分体系，让不同 CPU 的性能对比变得直观简单。本文基于 Geekbench 5 跑分数据，结合 YABS 一键测试脚本，对主流服务器 CPU 进行全面分析。&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;一、Geekbench 5 简介&lt;a href=&quot;#一geekbench-5-简介&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Geekbench 5&lt;/strong&gt; 是 Primate Labs 开发的跨平台系统基准测试工具，由 Geekbench 4 升级而来，主要用于测试 CPU 性能。&lt;/p&gt;&lt;section&gt;&lt;h3&gt;测试项目&lt;a href=&quot;#测试项目&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;测试类型&lt;/th&gt;&lt;th&gt;说明&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;单核测试（Single-Core）&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;测试单颗 CPU 核心的性能，代表日常单线程任务的处理能力（网页浏览、计算等）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;多核测试（Multi-Core）&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;测试所有 CPU 核心协同工作的性能，代表多线程任务的处理能力（视频渲染、科学计算等）&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;评分体系&lt;a href=&quot;#评分体系&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Geekbench 5 评分基于一组真实工作负载（如 PDF 渲染、语音识别、图像处理等）&lt;/li&gt;
+&lt;li&gt;评分没有上限，分数越高代表性能越强&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;单核分数&lt;/strong&gt; 主要反映 CPU 架构（IPC）和频率的效率&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多核分数&lt;/strong&gt; 主要反映 CPU 核心数量和整体并行能力&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;为什么选择 Geekbench 5？&lt;a href=&quot;#为什么选择-geekbench-5&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;✅ &lt;strong&gt;跨平台&lt;/strong&gt;：支持 Windows、Linux、macOS、Android、iOS&lt;/li&gt;
+&lt;li&gt;✅ &lt;strong&gt;标准化&lt;/strong&gt;：统一评分体系，跨平台横向对比&lt;/li&gt;
+&lt;li&gt;✅ &lt;strong&gt;数据丰富&lt;/strong&gt;：Browser.geekbench.com 有全球海量跑分数据&lt;/li&gt;
+&lt;li&gt;✅ &lt;strong&gt;简单易用&lt;/strong&gt;：一条命令即可完成测试&lt;/li&gt;
+&lt;/ul&gt;&lt;hr /&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;二、YABS 测试脚本简介&lt;a href=&quot;#二yabs-测试脚本简介&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;YABS&lt;/strong&gt;（Yet Another Bench Script）是一个一键 VPS 基准测试脚本，可测试服务器的多项性能指标：&lt;/p&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sL&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;yabs.sh&lt;/span&gt;&lt;span&gt; | &lt;/span&gt;&lt;span&gt;bash&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;section&gt;&lt;h3&gt;YABS 主要测试项目&lt;a href=&quot;#yabs-主要测试项目&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;测试项目&lt;/th&gt;&lt;th&gt;说明&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Geekbench 5&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;CPU 单核/多核性能基准测试&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Geekbench 6&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;新版 CPU 基准测试（可选）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;fio&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;磁盘读写速度测试（顺序/随机）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;iperf3&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;网络带宽测试&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;流媒体解锁测试&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Netflix、TikTok 等平台解锁情况&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Geolocation&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;服务器地理位置检测&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;Geekbench 5 专项测试&lt;a href=&quot;#geekbench-5-专项测试&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果只想测试 CPU 性能，可以单独运行 Geekbench 5：&lt;/p&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# 安装 Geekbench 5&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;wget&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;https://cdn.geekbench.com/Geekbench-5.5.1-Linux.tar.gz&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;3&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;tar&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-xzf&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Geekbench-5.5.1-Linux.tar.gz&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;4&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;cd&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Geekbench-5.5.1-Linux&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;5&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;6&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# 运行测试（单核+多核）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;7&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;./geekbench_x86_64&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;8&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;9&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# 仅运行多核测试&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;10&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;./geekbench_x86_64&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--no-single-core&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;p&gt;测试完成后，Geekbench 会生成一个在线报告链接，测试结果会自动上传到 &lt;a href=&quot;https://browser.geekbench.com&quot; target=&quot;_blank&quot;&gt;browser.geekbench.com&lt;/a&gt; 的数据库中。&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;三、主流服务器 CPU 跑分对比&lt;a href=&quot;#三主流服务器-cpu-跑分对比&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;section&gt;&lt;h3&gt;1. AMD EPYC 系列（服务器级）&lt;a href=&quot;#1-amd-epyc-系列服务器级&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;AMD EPYC 系列自 2017 年推出第一代 Naples 以来，在服务器市场一路高歌猛进，尤其在多核性能方面优势明显。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;CPU 型号&lt;/th&gt;&lt;th&gt;核心/线程&lt;/th&gt;&lt;th&gt;主频/睿频&lt;/th&gt;&lt;th&gt;单核分数&lt;/th&gt;&lt;th&gt;多核分数&lt;/th&gt;&lt;th&gt;架构&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;EPYC 9654P&lt;/td&gt;&lt;td&gt;96C/192T&lt;/td&gt;&lt;td&gt;2.4/3.7GHz&lt;/td&gt;&lt;td&gt;~2000&lt;/td&gt;&lt;td&gt;~77000+&lt;/td&gt;&lt;td&gt;Zen 4 (Genoa)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EPYC 9554&lt;/td&gt;&lt;td&gt;64C/128T&lt;/td&gt;&lt;td&gt;3.1/3.75GHz&lt;/td&gt;&lt;td&gt;~1800&lt;/td&gt;&lt;td&gt;~50000+&lt;/td&gt;&lt;td&gt;Zen 4 (Genoa)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EPYC 7763&lt;/td&gt;&lt;td&gt;64C/128T&lt;/td&gt;&lt;td&gt;2.45/3.5GHz&lt;/td&gt;&lt;td&gt;~1300&lt;/td&gt;&lt;td&gt;~35000+&lt;/td&gt;&lt;td&gt;Zen 3 (Milan)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EPYC 7713&lt;/td&gt;&lt;td&gt;64C/128T&lt;/td&gt;&lt;td&gt;2.0/3.675GHz&lt;/td&gt;&lt;td&gt;~1200&lt;/td&gt;&lt;td&gt;~32000+&lt;/td&gt;&lt;td&gt;Zen 3 (Milan)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EPYC 7543&lt;/td&gt;&lt;td&gt;32C/64T&lt;/td&gt;&lt;td&gt;2.8/3.7GHz&lt;/td&gt;&lt;td&gt;~1400&lt;/td&gt;&lt;td&gt;~20000+&lt;/td&gt;&lt;td&gt;Zen 3 (Milan)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EPYC 7443P&lt;/td&gt;&lt;td&gt;24C/48T&lt;/td&gt;&lt;td&gt;2.85/4.0GHz&lt;/td&gt;&lt;td&gt;~1400&lt;/td&gt;&lt;td&gt;~15000+&lt;/td&gt;&lt;td&gt;Zen 3 (Milan)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EPYC 7282&lt;/td&gt;&lt;td&gt;16C/32T&lt;/td&gt;&lt;td&gt;2.8/3.2GHz&lt;/td&gt;&lt;td&gt;~1000&lt;/td&gt;&lt;td&gt;~9000+&lt;/td&gt;&lt;td&gt;Zen 2 (Rome)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EPYC 7302P&lt;/td&gt;&lt;td&gt;16C/32T&lt;/td&gt;&lt;td&gt;3.0/3.3GHz&lt;/td&gt;&lt;td&gt;~1050&lt;/td&gt;&lt;td&gt;~10000+&lt;/td&gt;&lt;td&gt;Zen 2 (Rome)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EPYC 7502P&lt;/td&gt;&lt;td&gt;32C/64T&lt;/td&gt;&lt;td&gt;2.5/3.35GHz&lt;/td&gt;&lt;td&gt;~1100&lt;/td&gt;&lt;td&gt;~20000+&lt;/td&gt;&lt;td&gt;Zen 2 (Rome)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EPYC 7702P&lt;/td&gt;&lt;td&gt;64C/128T&lt;/td&gt;&lt;td&gt;2.0/3.35GHz&lt;/td&gt;&lt;td&gt;~1100&lt;/td&gt;&lt;td&gt;~25000+&lt;/td&gt;&lt;td&gt;Zen 2 (Rome)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;数据来源：browser.geekbench.com 公开跑分数据库，仅供参考，实际分数因服务器配置（内存、散热、频率策略）有所差异。&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;EPYC 系列特点：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;🔥 &lt;strong&gt;超多核心&lt;/strong&gt;：最高 128 核心 256 线程（EPYC 9654），多核性能登峰造极&lt;/li&gt;
+&lt;li&gt;💰 &lt;strong&gt;性价比高&lt;/strong&gt;：同等核心数下，价格比 Intel Xeon 更具竞争力&lt;/li&gt;
+&lt;li&gt;⚡ &lt;strong&gt;PCIe 4.0/5.0&lt;/strong&gt;：支持更多高速扩展&lt;/li&gt;
+&lt;li&gt;🎯 &lt;strong&gt;适合场景&lt;/strong&gt;：大规模并行计算、虚拟化、Docker 集群、数据库&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;2. Intel Xeon 系列（服务器级）&lt;a href=&quot;#2-intel-xeon-系列服务器级&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Intel Xeon 是传统服务器市场的霸主，Xeon Scalable 系列从 Bronze/Silver/Gold 到 Platinum 分层清晰。&lt;/p&gt;&lt;section&gt;&lt;h4&gt;Xeon Scalable 系列（第一代~第四代）&lt;a href=&quot;#xeon-scalable-系列第一代第四代&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;CPU 型号&lt;/th&gt;&lt;th&gt;核心/线程&lt;/th&gt;&lt;th&gt;主频/睿频&lt;/th&gt;&lt;th&gt;单核分数&lt;/th&gt;&lt;th&gt;多核分数&lt;/th&gt;&lt;th&gt;代际&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Xeon Platinum 8480+&lt;/td&gt;&lt;td&gt;56C/112T&lt;/td&gt;&lt;td&gt;2.4/4.0GHz&lt;/td&gt;&lt;td&gt;~1600&lt;/td&gt;&lt;td&gt;~30000+&lt;/td&gt;&lt;td&gt;4th Gen (Sapphire)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon Platinum 8380&lt;/td&gt;&lt;td&gt;40C/80T&lt;/td&gt;&lt;td&gt;2.3/4.0GHz&lt;/td&gt;&lt;td&gt;~1500&lt;/td&gt;&lt;td&gt;~25000+&lt;/td&gt;&lt;td&gt;3rd Gen (Ice Lake)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon Gold 6348&lt;/td&gt;&lt;td&gt;28C/56T&lt;/td&gt;&lt;td&gt;2.6/3.6GHz&lt;/td&gt;&lt;td&gt;~1400&lt;/td&gt;&lt;td&gt;~18000+&lt;/td&gt;&lt;td&gt;3rd Gen (Ice Lake)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon Gold 6330&lt;/td&gt;&lt;td&gt;28C/56T&lt;/td&gt;&lt;td&gt;2.0/3.1GHz&lt;/td&gt;&lt;td&gt;~1200&lt;/td&gt;&lt;td&gt;~15000+&lt;/td&gt;&lt;td&gt;3rd Gen (Ice Lake)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon Gold 5318Y&lt;/td&gt;&lt;td&gt;24C/48T&lt;/td&gt;&lt;td&gt;2.1/3.4GHz&lt;/td&gt;&lt;td&gt;~1300&lt;/td&gt;&lt;td&gt;~12000+&lt;/td&gt;&lt;td&gt;3rd Gen (Ice Lake)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon Gold 5320&lt;/td&gt;&lt;td&gt;20C/40T&lt;/td&gt;&lt;td&gt;2.2/3.9GHz&lt;/td&gt;&lt;td&gt;~1400&lt;/td&gt;&lt;td&gt;~10000+&lt;/td&gt;&lt;td&gt;3rd Gen (Ice Lake)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon Gold 5315Y&lt;/td&gt;&lt;td&gt;8C/16T&lt;/td&gt;&lt;td&gt;3.2/3.9GHz&lt;/td&gt;&lt;td&gt;~1500&lt;/td&gt;&lt;td&gt;~5500+&lt;/td&gt;&lt;td&gt;3rd Gen (Ice Lake)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon Silver 4314&lt;/td&gt;&lt;td&gt;16C/32T&lt;/td&gt;&lt;td&gt;2.4/3.4GHz&lt;/td&gt;&lt;td&gt;~1100&lt;/td&gt;&lt;td&gt;~7000+&lt;/td&gt;&lt;td&gt;3rd Gen (Ice Lake)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon Silver 4310&lt;/td&gt;&lt;td&gt;12C/24T&lt;/td&gt;&lt;td&gt;2.1/3.3GHz&lt;/td&gt;&lt;td&gt;~1050&lt;/td&gt;&lt;td&gt;~6000+&lt;/td&gt;&lt;td&gt;3rd Gen (Ice Lake)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon Bronze 3204&lt;/td&gt;&lt;td&gt;6C/12T&lt;/td&gt;&lt;td&gt;1.9/无睿频&lt;/td&gt;&lt;td&gt;~800&lt;/td&gt;&lt;td&gt;~3500+&lt;/td&gt;&lt;td&gt;2nd Gen (Cascade Lake)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;数据来源：browser.geekbench.com 公开跑分数据库。&lt;/p&gt;&lt;/blockquote&gt;&lt;/section&gt;&lt;section&gt;&lt;h4&gt;Xeon E5 系列（上一代/入门级）&lt;a href=&quot;#xeon-e5-系列上一代入门级&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;CPU 型号&lt;/th&gt;&lt;th&gt;核心/线程&lt;/th&gt;&lt;th&gt;主频/睿频&lt;/th&gt;&lt;th&gt;单核分数&lt;/th&gt;&lt;th&gt;多核分数&lt;/th&gt;&lt;th&gt;备注&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Xeon E5-2696 v4&lt;/td&gt;&lt;td&gt;22C/44T&lt;/td&gt;&lt;td&gt;2.2/3.6GHz&lt;/td&gt;&lt;td&gt;~900&lt;/td&gt;&lt;td&gt;~11000+&lt;/td&gt;&lt;td&gt;早期主流选择&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon E5-2680 v4&lt;/td&gt;&lt;td&gt;14C/28T&lt;/td&gt;&lt;td&gt;2.4/3.3GHz&lt;/td&gt;&lt;td&gt;~850&lt;/td&gt;&lt;td&gt;~7000+&lt;/td&gt;&lt;td&gt;价格低廉&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon E5-2667 v2&lt;/td&gt;&lt;td&gt;8C/16T&lt;/td&gt;&lt;td&gt;3.3/4.0GHz&lt;/td&gt;&lt;td&gt;~800&lt;/td&gt;&lt;td&gt;~4000+&lt;/td&gt;&lt;td&gt;高频低核&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon E5-2680 v2&lt;/td&gt;&lt;td&gt;10C/20T&lt;/td&gt;&lt;td&gt;2.8/3.6GHz&lt;/td&gt;&lt;td&gt;~800&lt;/td&gt;&lt;td&gt;~5500+&lt;/td&gt;&lt;td&gt;性价比高&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon E5-2678 v3&lt;/td&gt;&lt;td&gt;12C/24T&lt;/td&gt;&lt;td&gt;2.5/3.1GHz&lt;/td&gt;&lt;td&gt;~750&lt;/td&gt;&lt;td&gt;~5000+&lt;/td&gt;&lt;td&gt;常见于超低价 VPS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Xeon E5-2666 v3&lt;/td&gt;&lt;td&gt;10C/20T&lt;/td&gt;&lt;td&gt;2.9/3.5GHz&lt;/td&gt;&lt;td&gt;~750&lt;/td&gt;&lt;td&gt;~4500+&lt;/td&gt;&lt;td&gt;高频型&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;strong&gt;Xeon 系列特点：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;🎯 &lt;strong&gt;单核效率高&lt;/strong&gt;：同频率下单核性能优于 AMD Zen 2&lt;/li&gt;
+&lt;li&gt;🏭 &lt;strong&gt;品牌信任度高&lt;/strong&gt;：企业级用户惯性选择 Intel&lt;/li&gt;
+&lt;li&gt;🔧 &lt;strong&gt;软件兼容性好&lt;/strong&gt;：某些专业软件对 Intel 有特殊优化&lt;/li&gt;
+&lt;li&gt;📊 &lt;strong&gt;产品线清晰&lt;/strong&gt;：Bronze/Silver/Gold/Platinum 分级明确&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;3. Intel Xeon 与 AMD EPYC 对比总结&lt;a href=&quot;#3-intel-xeon-与-amd-epyc-对比总结&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;对比维度&lt;/th&gt;&lt;th&gt;Intel Xeon Scalable&lt;/th&gt;&lt;th&gt;AMD EPYC&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;单核性能&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;✅ 略优（同频率 IPC 更高）&lt;/td&gt;&lt;td&gt;略逊&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;多核性能&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;弱&lt;/td&gt;&lt;td&gt;✅ 强（同价位核心数更多）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;核心数量&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;最多 56 核&lt;/td&gt;&lt;td&gt;✅ 最多 128 核&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;内存带宽&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;8 通道 DDR5&lt;/td&gt;&lt;td&gt;✅ 更多内存通道&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;PCIe 通道&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;PCIe 5.0&lt;/td&gt;&lt;td&gt;✅ 更多 PCIe 通道&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;功耗控制&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;✅ 较好&lt;/td&gt;&lt;td&gt;较高&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;价格&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;较高&lt;/td&gt;&lt;td&gt;✅ 同性能下价格更低&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;成熟度&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;✅ 更成熟稳定&lt;/td&gt;&lt;td&gt;快速追赶&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;hr /&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;四、消费级 CPU 跑分参考（桌面/移动端）&lt;a href=&quot;#四消费级-cpu-跑分参考桌面移动端&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;虽然本文聚焦服务器 CPU，但桌面和移动端 CPU 的 Geekbench 5 数据对于理解 CPU 性能区间也很有参考价值。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;CPU 型号&lt;/th&gt;&lt;th&gt;核心/线程&lt;/th&gt;&lt;th&gt;主频/睿频&lt;/th&gt;&lt;th&gt;单核分数&lt;/th&gt;&lt;th&gt;多核分数&lt;/th&gt;&lt;th&gt;定位&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;AMD Ryzen 9 5950X&lt;/td&gt;&lt;td&gt;16C/32T&lt;/td&gt;&lt;td&gt;3.4/4.9GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;1698&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;16957&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;桌面旗舰&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;AMD Ryzen 9 5900X&lt;/td&gt;&lt;td&gt;12C/24T&lt;/td&gt;&lt;td&gt;3.7/4.8GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;1674&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;14246&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;高端桌面&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;AMD Ryzen 7 5800X&lt;/td&gt;&lt;td&gt;8C/16T&lt;/td&gt;&lt;td&gt;3.8/4.7GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;1677&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;10433&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;中高端桌面&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;AMD Ryzen 5 5600X&lt;/td&gt;&lt;td&gt;6C/12T&lt;/td&gt;&lt;td&gt;3.7/4.6GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;1620&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;8197&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;主流桌面&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Intel Core i9-9900K&lt;/td&gt;&lt;td&gt;8C/16T&lt;/td&gt;&lt;td&gt;3.6/5.0GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;1316&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;8596&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;桌面旗舰&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Intel Core i7-9700K&lt;/td&gt;&lt;td&gt;8C/8T&lt;/td&gt;&lt;td&gt;3.6/4.9GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;1284&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;7211&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;中高端桌面&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;AMD Ryzen 9 3950X&lt;/td&gt;&lt;td&gt;16C/32T&lt;/td&gt;&lt;td&gt;3.5/4.7GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;1300&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;14199&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;线程撕裂者&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;AMD Threadripper 3990X&lt;/td&gt;&lt;td&gt;64C/128T&lt;/td&gt;&lt;td&gt;2.9/4.3GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;1209&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;24981&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;HEDT 之王&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Intel Xeon W-2295&lt;/td&gt;&lt;td&gt;18C/36T&lt;/td&gt;&lt;td&gt;3.0/4.6GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;1177&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;13829&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;工作站&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;数据来源：CSDN Geekbench 5 天梯排行榜。测试环境不同，数据仅供参考。&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;有趣的发现：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;AMD Ryzen 9 5950X 的单核分数（1698）已经超过了绝大多数服务器级 Xeon CPU&lt;/li&gt;
+&lt;li&gt;AMD Threadripper 3990X 的多核分数（24981）接近 EPYC 服务器 CPU 的水平&lt;/li&gt;
+&lt;li&gt;桌面 CPU 和服务器 CPU 之间的性能差距在缩小&lt;/li&gt;
+&lt;/ul&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;五、游戏云 CPU 跑分专项&lt;a href=&quot;#五游戏云-cpu-跑分专项&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;游戏云（Cloud Gaming）是近年兴起的新型云服务，通过在云端运行游戏并将画面串流到用户设备，对 CPU 的&lt;strong&gt;单核性能&lt;/strong&gt;和&lt;strong&gt;高频率&lt;/strong&gt;有极高要求。与传统服务器 CPU 不同，游戏云通常采用消费级高性能 CPU，以获得更强的单线程游戏性能。&lt;/p&gt;&lt;/blockquote&gt;&lt;section&gt;&lt;h3&gt;游戏云 CPU 的特殊需求&lt;a href=&quot;#游戏云-cpu-的特殊需求&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;需求维度&lt;/th&gt;&lt;th&gt;说明&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;高单核性能&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;游戏逻辑大多为单线程，单核分数直接影响游戏帧率&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;高睿频&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;瞬时高频率对游戏响应速度至关重要&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;低延迟&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;缓存命中率高、内存延迟低，减少游戏卡顿&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;多实例并发&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;同一物理机需同时运行多个游戏实例，多核能力也不可忽视&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;游戏云 CPU 完整跑分对照表&lt;a href=&quot;#游戏云-cpu-完整跑分对照表&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;下表按性能从高到低排列，涵盖市面上主流游戏云平台所使用的全部 CPU 型号。单核分数为 Geekbench 5 实测数据，部分为游戏云平台虚拟化环境下的实测值（会略低于物理机裸跑）。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;档位&lt;/th&gt;&lt;th&gt;CPU 型号&lt;/th&gt;&lt;th&gt;架构&lt;/th&gt;&lt;th&gt;睿频&lt;/th&gt;&lt;th&gt;单核分数&lt;/th&gt;&lt;th&gt;适用场景&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;🥇 &lt;strong&gt;旗舰&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;AMD Ryzen 9950X&lt;/td&gt;&lt;td&gt;Zen 5&lt;/td&gt;&lt;td&gt;5.8GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;800~900&lt;/strong&gt;（云环境）&lt;/td&gt;&lt;td&gt;1.20+/模组/基岩/群组等高消耗场景，全网首发&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;🥇 &lt;strong&gt;旗舰&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Intel Core i9-14900K&lt;/td&gt;&lt;td&gt;Raptor Lake-R&lt;/td&gt;&lt;td&gt;6.0GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;~2412&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;3A 大作、竞技游戏、高帧率场景&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;🥇 &lt;strong&gt;旗舰&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;AMD Ryzen 9 7950X&lt;/td&gt;&lt;td&gt;Zen 4&lt;/td&gt;&lt;td&gt;5.7GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;22072217&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;多实例并发、高负载游戏服务器&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;🥈 &lt;strong&gt;高性能&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Intel Core i9-13900K&lt;/td&gt;&lt;td&gt;Raptor Lake&lt;/td&gt;&lt;td&gt;5.8GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;21332206&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;主流 3A 游戏、竞技游戏&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;🥈 &lt;strong&gt;高性能&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;AMD Ryzen 9 5900X&lt;/td&gt;&lt;td&gt;Zen 3&lt;/td&gt;&lt;td&gt;4.8GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;~1674&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;主流游戏、网游、中等负载&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;🥉 &lt;strong&gt;中端&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Intel Xeon Gold 6146&lt;/td&gt;&lt;td&gt;Skylake-SP&lt;/td&gt;&lt;td&gt;4.2GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;9501050&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;轻量游戏、老版本游戏&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;🥉 &lt;strong&gt;中端&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;AMD EPYC 7A23&lt;/td&gt;&lt;td&gt;Zen 3 (Milan)&lt;/td&gt;&lt;td&gt;3.7+GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;11001200&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;多核并发、轻量游戏云&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;⚠️ &lt;strong&gt;入门&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Intel Xeon Platinum 8275CL&lt;/td&gt;&lt;td&gt;Cascade Lake&lt;/td&gt;&lt;td&gt;3.9GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;9501050&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;低负载游戏、老版本服务器&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;❌ &lt;strong&gt;淘汰&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Intel Xeon E5-2666 v3&lt;/td&gt;&lt;td&gt;Haswell-EP&lt;/td&gt;&lt;td&gt;3.4GHz&lt;/td&gt;&lt;td&gt;&lt;strong&gt;350~390&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;1.12.2 及以下纯净服务器&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;⚠️ &lt;strong&gt;重要说明&lt;/strong&gt;：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;Ryzen 9950X 的 800~900 分为&lt;strong&gt;游戏云平台虚拟化环境实测值&lt;/strong&gt;，物理机裸跑单核可达 ~2400+（Zen 5 架构）；虚拟化开销、资源隔离策略会显著影响实际得分&lt;/li&gt;
+&lt;li&gt;i9-14900K 的 ~2412 分为物理机 Geekbench 5 实测（中关村在线评测数据）&lt;/li&gt;
+&lt;li&gt;E5-2666v3 的 350~390 分为游戏云平台实测值，与物理机数据基本一致&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;各档位详细说明&lt;a href=&quot;#各档位详细说明&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;section&gt;&lt;h4&gt;🥇 旗舰档（单核 800+ 云环境 / 2200+ 物理机）&lt;a href=&quot;#-旗舰档单核-800-云环境--2200-物理机&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;✨ AMD Ryzen 9950X — 全网首发，单核+全核性能之王&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;参数&lt;/th&gt;&lt;th&gt;数值&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;架构&lt;/td&gt;&lt;td&gt;AMD Zen 5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;核心/线程&lt;/td&gt;&lt;td&gt;16C/32T&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;睿频&lt;/td&gt;&lt;td&gt;⚡ 5.8GHz&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;云环境单核&lt;/td&gt;&lt;td&gt;&lt;strong&gt;800~900 分&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;物理机单核&lt;/td&gt;&lt;td&gt;~2400+（Zen 5 IPC 大幅提升）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;适用场景&lt;/td&gt;&lt;td&gt;1.20+/模组/基岩/群组等高消耗场景&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;ul&gt;
+&lt;li&gt;🏆 Zen 5 架构，IPC 相比 Zen 4 提升约 16%&lt;/li&gt;
+&lt;li&gt;⚡ 5.8GHz 超高睿频，单线程游戏性能登顶&lt;/li&gt;
+&lt;li&gt;🎮 &lt;strong&gt;全网首发&lt;/strong&gt;，目前最顶级的游戏云 CPU 配置&lt;/li&gt;
+&lt;li&gt;💡 云环境分数偏低系虚拟化开销所致，实际游戏体验远超分数表现&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;🔥 Intel Core i9-14900K&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;参数&lt;/th&gt;&lt;th&gt;数值&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;架构&lt;/td&gt;&lt;td&gt;Intel Raptor Lake Refresh&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;核心/线程&lt;/td&gt;&lt;td&gt;24C/32T（8P+16E）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;睿频&lt;/td&gt;&lt;td&gt;⚡ 6.0GHz&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GB5 单核&lt;/td&gt;&lt;td&gt;&lt;strong&gt;~2412&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GB5 多核&lt;/td&gt;&lt;td&gt;&lt;strong&gt;~26972&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;适用场景&lt;/td&gt;&lt;td&gt;3A 大作、竞技游戏、高帧率场景&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;ul&gt;
+&lt;li&gt;🚀 6.0GHz 超高睿频，Intel 消费级最高频率&lt;/li&gt;
+&lt;li&gt;📈 相比 i9-13900K 单核提升约 12%，多核提升约 13%&lt;/li&gt;
+&lt;li&gt;⚠️ 满载功耗可达 250W+，需要优质散热&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h4&gt;🥈 高性能档（单核 1600~2200）&lt;a href=&quot;#-高性能档单核-16002200&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;AMD Ryzen 9 7950X / Intel Core i9-13900K&lt;/strong&gt; — 详见上方跑分表，均为主流游戏云旗舰配置。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AMD Ryzen 9 5900X&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;参数&lt;/th&gt;&lt;th&gt;数值&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;架构&lt;/td&gt;&lt;td&gt;AMD Zen 3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;核心/线程&lt;/td&gt;&lt;td&gt;12C/24T&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;睿频&lt;/td&gt;&lt;td&gt;4.8GHz&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GB5 单核&lt;/td&gt;&lt;td&gt;&lt;strong&gt;~1674&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GB5 多核&lt;/td&gt;&lt;td&gt;&lt;strong&gt;~14246&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;适用场景&lt;/td&gt;&lt;td&gt;主流游戏、网游、中等负载&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;ul&gt;
+&lt;li&gt;💰 性价比优秀，Zen 3 架构单核性能强劲&lt;/li&gt;
+&lt;li&gt;🎮 适合运行主流网游和中等负载游戏&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h4&gt;🥉 中端档（单核 950~1200）&lt;a href=&quot;#-中端档单核-9501200&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Intel Xeon Gold 6146&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;参数&lt;/th&gt;&lt;th&gt;数值&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;架构&lt;/td&gt;&lt;td&gt;Intel Skylake-SP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;核心/线程&lt;/td&gt;&lt;td&gt;12C/24T&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;睿频&lt;/td&gt;&lt;td&gt;4.2GHz&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GB5 单核&lt;/td&gt;&lt;td&gt;&lt;strong&gt;9501050&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;适用场景&lt;/td&gt;&lt;td&gt;轻量游戏、老版本游戏服务器&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;ul&gt;
+&lt;li&gt;📌 服务器级 CPU，单核性能不及消费级旗舰&lt;/li&gt;
+&lt;li&gt;🔧 稳定性好，适合对性能要求不高的轻量游戏云&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;AMD EPYC 7A23&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;参数&lt;/th&gt;&lt;th&gt;数值&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;架构&lt;/td&gt;&lt;td&gt;AMD Zen 3 (Milan，阿里云定制)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;睿频&lt;/td&gt;&lt;td&gt;3.7+GHz&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GB5 单核&lt;/td&gt;&lt;td&gt;&lt;strong&gt;11001200&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;适用场景&lt;/td&gt;&lt;td&gt;多核并发、轻量游戏云&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;ul&gt;
+&lt;li&gt;🏢 阿里云定制版 EPYC Milan，多核并发能力强&lt;/li&gt;
+&lt;li&gt;💡 单核性能受限于服务器级频率策略，游戏体验一般&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;🔥 Intel Xeon Platinum 8275CL&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;参数&lt;/th&gt;&lt;th&gt;数值&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;架构&lt;/td&gt;&lt;td&gt;Intel Cascade Lake&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;核心/线程&lt;/td&gt;&lt;td&gt;24C/48T&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;睿频&lt;/td&gt;&lt;td&gt;⚡ 3.9GHz&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GB5 单核&lt;/td&gt;&lt;td&gt;&lt;strong&gt;9501050&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;适用场景&lt;/td&gt;&lt;td&gt;低负载游戏、老版本服务器&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;ul&gt;
+&lt;li&gt;🏢 AWS c5 实例常用 CPU，企业级稳定性&lt;/li&gt;
+&lt;li&gt;⚠️ 单核性能偏弱，不适合高帧率游戏场景&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h4&gt;❌ 淘汰档（单核 350~390）&lt;a href=&quot;#-淘汰档单核-350390&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Intel Xeon E5-2666 v3&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;参数&lt;/th&gt;&lt;th&gt;数值&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;架构&lt;/td&gt;&lt;td&gt;Intel Haswell-EP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;核心/线程&lt;/td&gt;&lt;td&gt;10C/20T&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;睿频&lt;/td&gt;&lt;td&gt;3.4GHz&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GB5 单核&lt;/td&gt;&lt;td&gt;&lt;strong&gt;350~390 分&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;适用场景&lt;/td&gt;&lt;td&gt;1.12.2 及以下纯净服务器&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;ul&gt;
+&lt;li&gt;💰 价格极低，适合预算有限的入门用户&lt;/li&gt;
+&lt;li&gt;❌ 单核性能极弱，&lt;strong&gt;不推荐用于 1.13+ 版本或模组服务器&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;✅ 适合：1.12.2 及以下纯净小服，低版本轻量应用&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;游戏云 CPU 性能天梯（单核分数）&lt;a href=&quot;#游戏云-cpu-性能天梯单核分数&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;🏆 旗舰（云环境 800+ / 物理机 2200+）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;✨ Ryzen 9950X（Zen 5，5.8GHz）— 全网首发，性能之王&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;3&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;🔥 i9-14900K（Raptor Lake-R，6.0GHz）— 单核 ~2412&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;4&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;5&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;🥈 高性能（单核 1600~2200）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;6&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;i9-13900K（Raptor Lake，5.8GHz）— 单核 ~2133~2206&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;7&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;Ryzen 9 7950X（Zen 4，5.7GHz）— 单核 ~2207~2217&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;8&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;9&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;🥉 中端（单核 1000~1700）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;10&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;Ryzen 9 5900X（Zen 3，4.8GHz）— 单核 ~1674&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;11&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;EPYC 7A23（Zen 3 定制，3.7+GHz）— 单核 ~1100~1200&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;12&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;Xeon Gold 6146（Skylake-SP，4.2GHz）— 单核 ~950~1050&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;13&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;Xeon Platinum 8275CL（Cascade Lake，3.9GHz）— 单核 ~950~1050&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;14&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;15&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;❌ 淘汰（单核 350~390）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;16&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;E5-2666v3（Haswell-EP，3.4GHz）— 仅适合 1.12.2 以下纯净服&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;span&gt;展开&lt;/span&gt;&lt;span&gt;收起&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;选购建议&lt;a href=&quot;#选购建议&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;需求场景&lt;/th&gt;&lt;th&gt;推荐 CPU&lt;/th&gt;&lt;th&gt;单核参考&lt;/th&gt;&lt;th&gt;说明&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1.20+/模组/基岩/高消耗&lt;/td&gt;&lt;td&gt;Ryzen 9950X&lt;/td&gt;&lt;td&gt;800~900（云）&lt;/td&gt;&lt;td&gt;全网首发，性能天花板&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3A 大作/竞技游戏&lt;/td&gt;&lt;td&gt;i9-14900K / Ryzen 9 7950X&lt;/td&gt;&lt;td&gt;2200~2412&lt;/td&gt;&lt;td&gt;旗舰消费级，游戏体验最佳&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;主流游戏/网游&lt;/td&gt;&lt;td&gt;i9-13900K / Ryzen 9 5900X&lt;/td&gt;&lt;td&gt;1674~2206&lt;/td&gt;&lt;td&gt;高性价比，覆盖绝大多数游戏&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;轻量游戏/老版本&lt;/td&gt;&lt;td&gt;Xeon Gold 6146 / EPYC 7A23&lt;/td&gt;&lt;td&gt;950~1200&lt;/td&gt;&lt;td&gt;服务器级稳定，性能够用&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1.12.2 以下纯净服&lt;/td&gt;&lt;td&gt;E5-2666v3&lt;/td&gt;&lt;td&gt;350~390&lt;/td&gt;&lt;td&gt;价格极低，仅限低版本纯净场景&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;⚠️ &lt;strong&gt;游戏云虚拟化说明&lt;/strong&gt;：游戏云平台通常对 CPU 资源进行虚拟化分配，实际跑分可能因宿主机负载、虚拟化开销（约 530%）而低于物理机数据。Ryzen 9950X 在云环境下的 800900 分即为此类情况，实际游戏体验仍优于低分数的老架构 CPU。&lt;/p&gt;&lt;/blockquote&gt;&lt;hr /&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;六、实战：使用 YABS 测试你的服务器&lt;a href=&quot;#六实战使用-yabs-测试你的服务器&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;section&gt;&lt;h3&gt;完整 YABS 测试&lt;a href=&quot;#完整-yabs-测试&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# 一键运行完整测试&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sL&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;yabs.sh&lt;/span&gt;&lt;span&gt; | &lt;/span&gt;&lt;span&gt;bash&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;仅测试 Geekbench 5&lt;a href=&quot;#仅测试-geekbench-5&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# 跳过磁盘和网络测试，仅测 CPU&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sL&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;yabs.sh&lt;/span&gt;&lt;span&gt; | &lt;/span&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-s&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-f&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;指定测试项目&lt;a href=&quot;#指定测试项目&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# 指定地区（影响测速节点选择）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sL&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;yabs.sh&lt;/span&gt;&lt;span&gt; | &lt;/span&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-s&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-r&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;us&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-r&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;cn&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;3&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;4&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# 查看帮助&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;5&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sL&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;yabs.sh&lt;/span&gt;&lt;span&gt; | &lt;/span&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-s&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-h&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;常见 VPS 服务商 Geekbench 5 参考分数&lt;a href=&quot;#常见-vps-服务商-geekbench-5-参考分数&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;section&gt;&lt;h4&gt;国内主流云服务商&lt;a href=&quot;#国内主流云服务商&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;服务商&lt;/th&gt;&lt;th&gt;实例类型&lt;/th&gt;&lt;th&gt;CPU 型号&lt;/th&gt;&lt;th&gt;单核&lt;/th&gt;&lt;th&gt;多核&lt;/th&gt;&lt;th&gt;特点&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;阿里云&lt;/td&gt;&lt;td&gt;ECS 计算型 c8i&lt;/td&gt;&lt;td&gt;Xeon Platinum&lt;/td&gt;&lt;td&gt;~1300&lt;/td&gt;&lt;td&gt;~8000+&lt;/td&gt;&lt;td&gt;企业级稳定&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;腾讯云&lt;/td&gt;&lt;td&gt;标准型 S5&lt;/td&gt;&lt;td&gt;Xeon Gold&lt;/td&gt;&lt;td&gt;~1200&lt;/td&gt;&lt;td&gt;~7000+&lt;/td&gt;&lt;td&gt;高性价比&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;华为云&lt;/td&gt;&lt;td&gt;通用型 S7&lt;/td&gt;&lt;td&gt;Xeon Gold&lt;/td&gt;&lt;td&gt;~1250&lt;/td&gt;&lt;td&gt;~7500+&lt;/td&gt;&lt;td&gt;性能均衡&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;火山引擎&lt;/td&gt;&lt;td&gt;性能型 e3&lt;/td&gt;&lt;td&gt;Xeon Gold&lt;/td&gt;&lt;td&gt;~1300&lt;/td&gt;&lt;td&gt;~8000+&lt;/td&gt;&lt;td&gt;新兴选择&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/section&gt;&lt;section&gt;&lt;h4&gt;海外主流云服务商&lt;a href=&quot;#海外主流云服务商&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;服务商&lt;/th&gt;&lt;th&gt;类型&lt;/th&gt;&lt;th&gt;CPU 型号&lt;/th&gt;&lt;th&gt;单核&lt;/th&gt;&lt;th&gt;多核&lt;/th&gt;&lt;th&gt;特点&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;AWS EC2&lt;/td&gt;&lt;td&gt;m6i&lt;/td&gt;&lt;td&gt;Xeon Platinum&lt;/td&gt;&lt;td&gt;~1400&lt;/td&gt;&lt;td&gt;~12000+&lt;/td&gt;&lt;td&gt;全球最全&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Vultr&lt;/td&gt;&lt;td&gt;Regular Performance&lt;/td&gt;&lt;td&gt;Xeon&lt;/td&gt;&lt;td&gt;~850&lt;/td&gt;&lt;td&gt;~5000+&lt;/td&gt;&lt;td&gt;性价比高&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Vultr&lt;/td&gt;&lt;td&gt;High Performance&lt;/td&gt;&lt;td&gt;AMD EPYC&lt;/td&gt;&lt;td&gt;~950&lt;/td&gt;&lt;td&gt;~9000+&lt;/td&gt;&lt;td&gt;AMD 首选&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Hetzner&lt;/td&gt;&lt;td&gt;AX102&lt;/td&gt;&lt;td&gt;Ryzen 9 7950X3D&lt;/td&gt;&lt;td&gt;~2000&lt;/td&gt;&lt;td&gt;~20000+&lt;/td&gt;&lt;td&gt;超高性价比&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DigitalOcean&lt;/td&gt;&lt;td&gt;Premium AMD&lt;/td&gt;&lt;td&gt;AMD EPYC&lt;/td&gt;&lt;td&gt;~900&lt;/td&gt;&lt;td&gt;~8000+&lt;/td&gt;&lt;td&gt;简单好用&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Linode&lt;/td&gt;&lt;td&gt;Dedicated&lt;/td&gt;&lt;td&gt;Xeon Gold&lt;/td&gt;&lt;td&gt;~1100&lt;/td&gt;&lt;td&gt;~7000+&lt;/td&gt;&lt;td&gt;稳定可靠&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;hr /&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;七、如何解读 Geekbench 5 跑分&lt;a href=&quot;#七如何解读-geekbench-5-跑分&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;section&gt;&lt;h3&gt;单核分数的意义&lt;a href=&quot;#单核分数的意义&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;单核分数反映的是 CPU 每一颗核心的基础性能，主要取决于：&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;IPC（每周期指令数）&lt;/strong&gt;：CPU 架构设计决定，AMD Zen 5 &amp;gt; Zen 4 &amp;gt; Zen 3 &amp;gt; Zen 2&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;主频/睿频&lt;/strong&gt;：频率越高，单核性能越强&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缓存&lt;/strong&gt;：更大的缓存可以减少内存访问延迟&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;单核分数高代表：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;✅ 网页响应更快&lt;/li&gt;
+&lt;li&gt;✅ 单线程程序（如某些游戏、数据库查询）运行更流畅&lt;/li&gt;
+&lt;li&gt;✅ 编译代码时单线程编译速度更快&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;多核分数的意义&lt;a href=&quot;#多核分数的意义&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;多核分数反映 CPU 在多线程场景下的整体性能，主要取决于：&lt;/p&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;核心数量&lt;/strong&gt;：核心越多，多核分数上限越高&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;核心间通信效率&lt;/strong&gt;：NUMA 架构、内存带宽会影响多核效率&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;频率策略&lt;/strong&gt;：全核睿频频率&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;多核分数高代表：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;✅ 视频渲染更快&lt;/li&gt;
+&lt;li&gt;✅ 并行计算任务（如科学计算、编译）效率更高&lt;/li&gt;
+&lt;li&gt;✅ 虚拟化/Docker 容器数量更多&lt;/li&gt;
+&lt;li&gt;✅ 数据库并发处理能力更强&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;性能天梯参考&lt;a href=&quot;#性能天梯参考&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;以下是基于 Geekbench 5 数据整理的性能天梯（以多核分数为参考）：&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;🟦 入门级（多核 3000-6000）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;Xeon E5 v2/v3 系列 | Xeon Bronze/Silver&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;3&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;适合：个人博客、开发测试、轻量网站&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;4&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;5&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;🟩 普通级（多核 6000-12000）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;6&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;Xeon E5 v4 系列 | Xeon Silver/Gold | AMD EPYC 7002&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;7&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;适合：企业网站、中等流量应用、小型数据库&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;8&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;9&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;🟨 中高级（多核 12000-25000）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;10&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;Xeon Gold 3rd Gen | AMD EPYC 7763+ | Threadripper&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;11&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;适合：高流量网站、在线应用、中型数据库&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;12&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;13&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;🟧 高端级（多核 25000-50000）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;14&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;AMD EPYC 9004 系列 | Xeon Platinum&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;15&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;适合：大规模虚拟化、并行计算、大型企业应用&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;16&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;17&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;🟥 旗舰级（多核 50000+）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;18&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;AMD EPYC 9654P (96C) | 多路 EPYC 部署&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;19&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;适合：超级计算机、云计算集群、AI 推理&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;20&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;21&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;🎮 游戏云专区（单核 2000+ / 云环境 800+）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;22&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;✨ Ryzen 9950X | i9-14900K | Ryzen 9 7950X | i9-13900K&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;23&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;   &lt;/span&gt;&lt;/span&gt;&lt;span&gt;适合：云游戏、高频交易、实时渲染&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;span&gt;展开&lt;/span&gt;&lt;span&gt;收起&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr /&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;八、选购建议&lt;a href=&quot;#八选购建议&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;section&gt;&lt;h3&gt;场景一：个人博客/轻量网站&lt;a href=&quot;#场景一个人博客轻量网站&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;推荐 CPU：&lt;/strong&gt; 单核分数 800-1000 即可&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;✅ 2 核即可，内存比 CPU 更重要&lt;/li&gt;
+&lt;li&gt;💰 优先考虑性价比，Xeon E5 或入门级实例足够&lt;/li&gt;
+&lt;li&gt;💡 推荐：腾讯云标准型 S5、阿里云 ECS 共享型&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;场景二：中小企业网站/Web 应用&lt;a href=&quot;#场景二中小企业网站web-应用&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;推荐 CPU：&lt;/strong&gt; 单核 1100-1400，多核 6000-15000&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;✅ 4-8 核，需要一定的多核能力应对并发&lt;/li&gt;
+&lt;li&gt;💡 推荐：Xeon Gold 系列、AMD EPYC 7002 系列&lt;/li&gt;
+&lt;li&gt;💰 参考：Vultr High Performance、阿里云 ECS 计算型&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;场景三：Docker 集群/微服务架构&lt;a href=&quot;#场景三docker-集群微服务架构&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;推荐 CPU：&lt;/strong&gt; 多核 12000+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;✅ 核心数越多，可运行的容器数量越多&lt;/li&gt;
+&lt;li&gt;💡 推荐：AMD EPYC 7003 系列，性价比最高&lt;/li&gt;
+&lt;li&gt;💰 参考：Hetzner AX102、DigitalOcean Premium AMD&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;场景四：大模型推理/AI 应用&lt;a href=&quot;#场景四大模型推理ai-应用&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;推荐 CPU：&lt;/strong&gt; 单核 1500+，大内存&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;✅ 高单核性能对推理效率至关重要&lt;/li&gt;
+&lt;li&gt;💡 推荐：Xeon Platinum 4th Gen、AMD EPYC 9004 系列&lt;/li&gt;
+&lt;li&gt;💰 参考：AWS EC2 m6i、Vultr High Frequency&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;场景五：高并发数据库&lt;a href=&quot;#场景五高并发数据库&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;推荐 CPU：&lt;/strong&gt; 单核 1300+，多核 15000+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;✅ 数据库对单核性能敏感，同时需要多核处理并发&lt;/li&gt;
+&lt;li&gt;💡 推荐：AMD EPYC 7763+、Xeon Gold 3rd Gen&lt;/li&gt;
+&lt;li&gt;💡 注意：数据库服务器内存和磁盘 IO 更重要&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;场景六：游戏云/云游戏平台&lt;a href=&quot;#场景六游戏云云游戏平台&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;推荐 CPU：&lt;/strong&gt; 单核 2000+（物理机）/ 云环境 800+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;✅ 游戏帧率高度依赖单核性能，优先选高频消费级 CPU&lt;/li&gt;
+&lt;li&gt;💡 推荐：Ryzen 9950X（旗舰）、i9-14900K、i9-13900K、Ryzen 9 7950X&lt;/li&gt;
+&lt;li&gt;⚠️ 注意：需配合高性能 GPU（RTX 4090/4080 等）才能发挥最大价值&lt;/li&gt;
+&lt;/ul&gt;&lt;hr /&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;九、常见问题&lt;a href=&quot;#九常见问题&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;section&gt;&lt;h3&gt;Q1：Geekbench 5 和 Geekbench 6 哪个更准确？&lt;a href=&quot;#q1geekbench-5-和-geekbench-6-哪个更准确&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Geekbench 6 是更新版本，测试负载更贴近现代应用场景。两者评分体系不同，&lt;strong&gt;不能直接横向对比&lt;/strong&gt;。建议：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;新测试用 Geekbench 6（更贴近当前软件生态）&lt;/li&gt;
+&lt;li&gt;历史对比参考 Geekbench 5（数据更丰富）&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;Q2：为什么同款 CPU 在不同机器上分数不同？&lt;a href=&quot;#q2为什么同款-cpu-在不同机器上分数不同&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;CPU 性能受以下因素影响：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;散热条件&lt;/strong&gt;：温度过高会导致降频&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功耗限制（TDP）&lt;/strong&gt;：云服务器通常有功耗墙&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内存带宽&lt;/strong&gt;：内存频率和通道数影响多核性能&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;系统调度&lt;/strong&gt;：不同操作系统的调度策略不同&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;Q3：AMD EPYC 和 Intel Xeon 哪个更稳定？&lt;a href=&quot;#q3amd-epyc-和-intel-xeon-哪个更稳定&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;两者都是企业级可靠性标准。稳定性更多取决于：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;服务器厂商的散热和电源设计&lt;/li&gt;
+&lt;li&gt;数据中心的运维质量&lt;/li&gt;
+&lt;li&gt;云服务商的虚拟化层优化&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;Q4：Geekbench 分数和实际体验成正比吗？&lt;a href=&quot;#q4geekbench-分数和实际体验成正比吗&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;不完全成正比。&lt;/strong&gt; Geekbench 主要测试 CPU 性能，但实际体验还受：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;磁盘 IOPS（数据库、文件服务器）&lt;/li&gt;
+&lt;li&gt;网络带宽和延迟（Web 服务器）&lt;/li&gt;
+&lt;li&gt;内存大小和带宽（内存密集型应用）&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;Q5：超低价 VPS 的 CPU 值得用吗？&lt;a href=&quot;#q5超低价-vps-的-cpu-值得用吗&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;对于 &lt;strong&gt;Xeon E5 系列老 CPU&lt;/strong&gt;（如 E5-2680 v3/v4）：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;✅ 价格低廉，核心数多&lt;/li&gt;
+&lt;li&gt;❌ 单核性能较弱，不适合高单核需求的场景&lt;/li&gt;
+&lt;li&gt;❌ 可能是共享宿主机资源，性能不稳定&lt;/li&gt;
+&lt;li&gt;💡 建议用于：练手、学习、个人非关键项目&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;Q6：游戏云为什么不用服务器 CPU？&lt;a href=&quot;#q6游戏云为什么不用服务器-cpu&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;服务器 CPU（如 EPYC、Xeon）的单核分数通常在 1000~1600 之间，而游戏云需要的消费级旗舰 CPU（如 i9-13900K）单核分数高达 2100+。游戏帧率对单核性能极为敏感，服务器 CPU 的低单核性能会导致游戏帧率明显下降，因此游戏云平台普遍选用消费级高性能 CPU。&lt;/p&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;Q7：Ryzen 9950X 在游戏云上只有 800~900 分，是不是很差？&lt;a href=&quot;#q7ryzen-9950x-在游戏云上只有-800900-分是不是很差&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;不是。这个分数是&lt;strong&gt;虚拟化环境下的 Geekbench 5 单核分数&lt;/strong&gt;，受虚拟化层开销影响较大（可达 30%+）。Ryzen 9950X 物理机单核可达 2400+，Zen 5 架构的 IPC 和高频率在实际游戏中表现远超分数所呈现的水平。选购游戏云时，&lt;strong&gt;同等虚拟化环境下的横向对比&lt;/strong&gt;才有意义，不能直接与物理机数据比较。&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;十、总结&lt;a href=&quot;#十总结&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;类型&lt;/th&gt;&lt;th&gt;适用场景&lt;/th&gt;&lt;th&gt;推荐 CPU&lt;/th&gt;&lt;th&gt;参考价格&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;入门尝鲜&lt;/td&gt;&lt;td&gt;个人博客&lt;/td&gt;&lt;td&gt;Xeon E5 / Silver&lt;/td&gt;&lt;td&gt;¥10-30/月&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;性价比之选&lt;/td&gt;&lt;td&gt;中小企业站&lt;/td&gt;&lt;td&gt;Xeon Gold / EPYC 7002&lt;/td&gt;&lt;td&gt;¥50-150/月&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;高性能&lt;/td&gt;&lt;td&gt;Docker/微服务&lt;/td&gt;&lt;td&gt;EPYC 7763 / Gold 3rd&lt;/td&gt;&lt;td&gt;¥150-500/月&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;旗舰级&lt;/td&gt;&lt;td&gt;AI/大数据&lt;/td&gt;&lt;td&gt;EPYC 9654 / Xeon Plat&lt;/td&gt;&lt;td&gt;¥500+/月&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;游戏云旗舰&lt;/td&gt;&lt;td&gt;高消耗游戏/模组服&lt;/td&gt;&lt;td&gt;Ryzen 9950X / i9-14900K&lt;/td&gt;&lt;td&gt;¥300-1000/月&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;游戏云主流&lt;/td&gt;&lt;td&gt;主流游戏/网游&lt;/td&gt;&lt;td&gt;i9-13900K / Ryzen 9 7950X&lt;/td&gt;&lt;td&gt;¥200-800/月&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;strong&gt;一句话总结：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;如果你追求 &lt;strong&gt;单核性能&lt;/strong&gt;，优先看 CPU 代际和频率，AMD Zen 5 或 Intel Raptor Lake-R 是首选&lt;/li&gt;
+&lt;li&gt;如果你需要 &lt;strong&gt;多核性能&lt;/strong&gt;，AMD EPYC 系列在同等预算下核心数更多，性价比更高&lt;/li&gt;
+&lt;li&gt;如果你只是 &lt;strong&gt;学习练手&lt;/strong&gt;，Xeon E5 老架构也不是不能用，关键是便宜&lt;/li&gt;
+&lt;li&gt;如果你搭建 &lt;strong&gt;游戏云&lt;/strong&gt;，消费级旗舰 CPU 才是正确选择：Ryzen 9950X 是当前天花板，i9-14900K / i9-13900K 是主流之选&lt;/li&gt;
+&lt;li&gt;如果你只跑 &lt;strong&gt;1.12.2 以下纯净服&lt;/strong&gt;，E5-2666v3 的 350~390 分完全够用，性价比极高&lt;/li&gt;
+&lt;/ul&gt;&lt;blockquote&gt;&lt;p&gt;📊 更多跑分数据可访问 &lt;a href=&quot;https://browser.geekbench.com/linux&quot; target=&quot;_blank&quot;&gt;browser.geekbench.com&lt;/a&gt; 查询。&lt;/p&gt;&lt;/blockquote&gt;&lt;hr /&gt;&lt;p&gt;&lt;em&gt;测试脚本来源：&lt;a href=&quot;https://github.com/masonr/yet-another-bench-script&quot; target=&quot;_blank&quot;&gt;YABS - Yet Another Bench Script&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;</content:encoded></item><item><title>我的音乐口味：前十名歌单分析</title><link>https://blog.winteroften.com/posts/my-music-taste-top10/</link><guid isPermaLink="true">https://blog.winteroften.com/posts/my-music-taste-top10/</guid><description>从独立民谣到电子流行，从日系清新到欧美另类——探索我的音乐世界</description><pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;section&gt;&lt;h1&gt;我的音乐口味：前十名歌单分析&lt;a href=&quot;#我的音乐口味前十名歌单分析&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;blockquote&gt;&lt;p&gt;音乐是情绪的出口，也是灵魂的回响。这是一份对我最常听歌曲的私人记录与解读。&lt;/p&gt;&lt;/blockquote&gt;&lt;hr /&gt;&lt;section&gt;&lt;h2&gt;写在前面&lt;a href=&quot;#写在前面&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;听歌这件事，有时候比文字更诚实。一首单曲循环几十遍、上百遍的歌，往往藏着某段时期最真实的自己。今天整理了一下 QQ 音乐的”我喜欢”列表，挑出前十名，写下我对每首歌的理解。&lt;/p&gt;&lt;p&gt;这份歌单没有固定风格，从中文独立民谣到日语电子流行，从欧美另类摇滚到器乐纯音——听起来可能有点”杂”，但这恰恰是我真实的样子：&lt;strong&gt;不拘于标签，只忠于感受。&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;1. 🥇 为霜 — 羽肿&lt;a href=&quot;#1--为霜--羽肿&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;时长：&lt;/strong&gt; 04:56　&lt;strong&gt;风格：&lt;/strong&gt; 中文独立民谣 / 氛围流行&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;《为霜》&lt;/strong&gt; 是我的第一名，也是我单曲循环次数最多的歌曲之一。&lt;/p&gt;&lt;p&gt;“为霜”二字出自《诗经》——“蒹葭苍苍，白露为霜”。整首歌的气质便如这诗句一般：清冷、疏离、带着一点点不可触及的美感。&lt;/p&gt;&lt;p&gt;羽肿是国内很低调的独立音乐人，他的作品大多没有激烈的高潮和宣泄的情绪，而是用温柔的旋律和留白，构建出一个安静而辽阔的空间。《为霜》前奏的钢琴声缓缓铺开，像是清晨薄雾中的湖面，然后人声轻轻进入，讲述一个关于距离和思念的故事。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么喜欢：&lt;/strong&gt;
 这首歌的情绪表达非常克制，不煽情却让人心软。“为霜”两个字本身就足够有画面感——露水凝结成霜，是自然中最细微也最诗意的变化。听这首歌的时候，我常常觉得时间慢下来了。&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;2. 🥈 为霜 (Inst.) — am&lt;a href=&quot;#2--为霜-inst--am&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;时长：&lt;/strong&gt; 05:15　&lt;strong&gt;风格：&lt;/strong&gt; 器乐 / 氛围纯音&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;纯器乐版的《为霜》，没有人声，只有音乐本身。&lt;/p&gt;&lt;p&gt;其实听完原版之后，我很长一段时间没有点开这个 instrumental 版本，直到某个深夜偶然点进去，才发现另一种美。没有了歌词的引导，每个人的感受都是私密的、自由的——钢琴、合成器、弦乐的编排像水墨画中的留白，意味全在声音之间的空隙里。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么喜欢：&lt;/strong&gt;
 有时候歌词是一种束缚，器乐版把那份想象空间完全还给了听者。这是一种很”成熟”的听音乐的方式——不需要别人告诉你该感受什么。&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;3. 🥉 The Other Side of Paradise — Glass Animals&lt;a href=&quot;#3--the-other-side-of-paradise--glass-animals&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;时长：&lt;/strong&gt; 05:20　&lt;strong&gt;专辑：&lt;/strong&gt; &lt;em&gt;How to Be a Human Being&lt;/em&gt; (2016)　&lt;strong&gt;风格：&lt;/strong&gt; 另类流行 / 艺术摇滚&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Glass Animals 是一个来自英国牛津的乐队，《How to Be a Human Being》是他们的第二张专辑，整张专辑的概念性极强——每一首歌都在讲述一个真实人物的故事。&lt;/p&gt;&lt;p&gt;《The Other Side of Paradise》是专辑中最有力量的一首。它讲述了一个派对男孩陷入虚无的故事：表面光鲜，内心空洞，在狂欢的尽头找不到自己。副歌的旋律极具记忆点，编曲中大量的合成器音效和人声处理让人联想到80年代的复古流行乐，但又不失现代感。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么喜欢：&lt;/strong&gt;
 这首歌有一种”表面热闹、内核孤独”的矛盾感，非常符合我对音乐复杂性的追求。Glass Animals 是我接触欧美独立音乐的重要入口，他们的专辑叙事方式也启发了我对”故事感”的理解。&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;4. キミに溺れたい — 暖日 いな&lt;a href=&quot;#4-キミに溺れたい--暖日-いな&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;时长：&lt;/strong&gt; 03:07　&lt;strong&gt;风格：&lt;/strong&gt; 日系电子 / City Pop 复兴&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;日语歌名意思是”想要溺死在你的温柔里”——听起来很中二，但音乐本身却意外地清爽明快。&lt;/p&gt;&lt;p&gt;暖日 いな（いいぬ）是日本新生代的独立音乐人/制作人，他的音乐风格融合了 City Pop 的复古氛围和现代电子乐的精致感。这首歌节奏轻快，吉他和合成器的搭配让人联想到夏日傍晚骑行的感觉，但歌词又是关于沉溺和依恋的，形成了甜而不腻的反差。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么喜欢：&lt;/strong&gt;
