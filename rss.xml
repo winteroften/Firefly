@@ -1,4 +1,335 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>十裡冬-随笔</title><description>风会记得一朵花的香</description><link>https://blog.winteroften.com/</link><templateTheme>Firefly</templateTheme><templateThemeVersion>6.8.10</templateThemeVersion><templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl><lastBuildDate>2026年3月30日 08:45:58</lastBuildDate><item><title>我的音乐口味：前十名歌单分析</title><link>https://blog.winteroften.com/posts/my-music-taste-top10/</link><guid isPermaLink="true">https://blog.winteroften.com/posts/my-music-taste-top10/</guid><description>从独立民谣到电子流行，从日系清新到欧美另类——探索我的音乐世界</description><pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;section&gt;&lt;h1&gt;我的音乐口味：前十名歌单分析&lt;a href=&quot;#我的音乐口味前十名歌单分析&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;blockquote&gt;&lt;p&gt;音乐是情绪的出口，也是灵魂的回响。这是一份对我最常听歌曲的私人记录与解读。&lt;/p&gt;&lt;/blockquote&gt;&lt;hr /&gt;&lt;section&gt;&lt;h2&gt;写在前面&lt;a href=&quot;#写在前面&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;听歌这件事，有时候比文字更诚实。一首单曲循环几十遍、上百遍的歌，往往藏着某段时期最真实的自己。今天整理了一下 QQ 音乐的”我喜欢”列表，挑出前十名，写下我对每首歌的理解。&lt;/p&gt;&lt;p&gt;这份歌单没有固定风格，从中文独立民谣到日语电子流行，从欧美另类摇滚到器乐纯音——听起来可能有点”杂”，但这恰恰是我真实的样子：&lt;strong&gt;不拘于标签，只忠于感受。&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;1. 🥇 为霜 — 羽肿&lt;a href=&quot;#1--为霜--羽肿&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;时长：&lt;/strong&gt; 04:56　&lt;strong&gt;风格：&lt;/strong&gt; 中文独立民谣 / 氛围流行&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;《为霜》&lt;/strong&gt; 是我的第一名，也是我单曲循环次数最多的歌曲之一。&lt;/p&gt;&lt;p&gt;“为霜”二字出自《诗经》——“蒹葭苍苍，白露为霜”。整首歌的气质便如这诗句一般：清冷、疏离、带着一点点不可触及的美感。&lt;/p&gt;&lt;p&gt;羽肿是国内很低调的独立音乐人，他的作品大多没有激烈的高潮和宣泄的情绪，而是用温柔的旋律和留白，构建出一个安静而辽阔的空间。《为霜》前奏的钢琴声缓缓铺开，像是清晨薄雾中的湖面，然后人声轻轻进入，讲述一个关于距离和思念的故事。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么喜欢：&lt;/strong&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>十裡冬-随笔</title><description>风会记得一朵花的香</description><link>https://blog.winteroften.com/</link><templateTheme>Firefly</templateTheme><templateThemeVersion>6.8.10</templateThemeVersion><templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl><lastBuildDate>2026年3月30日 12:32:03</lastBuildDate><item><title>LinuxMirrors 一键换源脚本完全指南</title><link>https://blog.winteroften.com/posts/linuxmirrors-guide/</link><guid isPermaLink="true">https://blog.winteroften.com/posts/linuxmirrors-guide/</guid><description>告别手动编辑源文件，一行命令搞定 Linux 系统换源与 Docker 安装</description><pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;section&gt;&lt;h1&gt;LinuxMirrors 一键换源脚本完全指南&lt;a href=&quot;#linuxmirrors-一键换源脚本完全指南&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;blockquote&gt;&lt;p&gt;一行命令，10 秒完成换源。专为国内用户打造的开源运维神器。&lt;/p&gt;&lt;/blockquote&gt;&lt;hr /&gt;&lt;section&gt;&lt;h2&gt;写在前面&lt;a href=&quot;#写在前面&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;如果你是 Linux 用户，一定遇到过这样的烦恼：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;新装的系统 &lt;code&gt;apt install&lt;/code&gt; 慢得要死&lt;/li&gt;
+&lt;li&gt;Docker 拉镜像超时、失败&lt;/li&gt;
+&lt;li&gt;手动换源要编辑一堆配置文件，改错了还不好恢复&lt;/li&gt;
+&lt;li&gt;不同发行版的源文件格式还不一样…&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;LinuxMirrors&lt;/strong&gt; 就是为了解决这些痛点而生的开源项目。&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;项目简介&lt;a href=&quot;#项目简介&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;LinuxMirrors&lt;/strong&gt; 是一个 GNU/Linux 更换系统软件源脚本及 Docker 安装与换源脚本的合集。&lt;/p&gt;&lt;p&gt;官网：&lt;a href=&quot;https://linuxmirrors.cn&quot; target=&quot;_blank&quot;&gt;https://linuxmirrors.cn&lt;/a&gt;&lt;/p&gt;&lt;p&gt;GitHub：&lt;a href=&quot;https://github.com/SuperManito/LinuxMirrors&quot; target=&quot;_blank&quot;&gt;https://github.com/SuperManito/LinuxMirrors&lt;/a&gt;&lt;/p&gt;&lt;section&gt;&lt;h3&gt;核心特点&lt;a href=&quot;#核心特点&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;特性&lt;/th&gt;&lt;th&gt;说明&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;零技术门槛&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;只需要一行命令就能直接运行，无需安装任何依赖&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;系统支持广泛&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;已适配 26+ 操作系统，精准识别系统类型&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;多元软件源适配&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;专为中国用户打造，提供国内教育网和海外镜像站&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;快速高效&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;最快仅需 10 秒即可完成软件源的更换&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;高度可定制&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;支持丰富的命令选项，满足各种高级需求&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;开源免费&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;MIT 开源许可协议，完全免费使用&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;hr /&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;一、Linux 系统一键换源&lt;a href=&quot;#一linux-系统一键换源&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;section&gt;&lt;h3&gt;支持的操作系统&lt;a href=&quot;#支持的操作系统&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;还在不断更新中…&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;操作系统&lt;/th&gt;&lt;th&gt;适配版本&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Debian&lt;/td&gt;&lt;td&gt;8～13&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ubuntu / 优麒麟 / Kubuntu 等&lt;/td&gt;&lt;td&gt;14～25&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Kali Linux&lt;/td&gt;&lt;td&gt;all&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Linux Mint&lt;/td&gt;&lt;td&gt;17～22 / LMDE 2～7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Deepin（深度）&lt;/td&gt;&lt;td&gt;all&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Zorin OS&lt;/td&gt;&lt;td&gt;all&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Armbian&lt;/td&gt;&lt;td&gt;all&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Proxmox VE&lt;/td&gt;&lt;td&gt;all&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Raspberry Pi OS&lt;/td&gt;&lt;td&gt;all&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Red Hat Enterprise Linux&lt;/td&gt;&lt;td&gt;7～10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fedora&lt;/td&gt;&lt;td&gt;30～43&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CentOS&lt;/td&gt;&lt;td&gt;7～8 / Stream 8～10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Rocky Linux&lt;/td&gt;&lt;td&gt;8～10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;AlmaLinux&lt;/td&gt;&lt;td&gt;8～10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Oracle Linux&lt;/td&gt;&lt;td&gt;8～10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;openEuler（开源欧拉）&lt;/td&gt;&lt;td&gt;20～25&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;OpenCloudOS（鸥栖）&lt;/td&gt;&lt;td&gt;8.6～9 / Stream 23&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;openKylin（开放麒麟）&lt;/td&gt;&lt;td&gt;all&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Anolis OS（龙蜥）&lt;/td&gt;&lt;td&gt;8 / 23&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;openSUSE&lt;/td&gt;&lt;td&gt;Leap 15 ~ 16 / Tumbleweed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Arch Linux&lt;/td&gt;&lt;td&gt;all&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Manjaro&lt;/td&gt;&lt;td&gt;all&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EndeavourOS&lt;/td&gt;&lt;td&gt;all&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Alpine Linux&lt;/td&gt;&lt;td&gt;v3 / edge&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Gentoo&lt;/td&gt;&lt;td&gt;all&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;NixOS&lt;/td&gt;&lt;td&gt;19～25&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;使用方法&lt;a href=&quot;#使用方法&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;section&gt;&lt;h4&gt;1. 中国大陆用户（推荐）&lt;a href=&quot;#1-中国大陆用户推荐&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://linuxmirrors.cn/main.sh)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/section&gt;&lt;section&gt;&lt;h4&gt;2. 境外及海外地区&lt;a href=&quot;#2-境外及海外地区&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://linuxmirrors.cn/main.sh)&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--abroad&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/section&gt;&lt;section&gt;&lt;h4&gt;3. 中国大陆教育网&lt;a href=&quot;#3-中国大陆教育网&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://linuxmirrors.cn/main.sh)&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--edu&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;其他脚本地址&lt;a href=&quot;#其他脚本地址&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果官网地址无法访问，可以使用以下备用地址：&lt;/p&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# GitHub（实时同步，无延迟）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://raw.githubusercontent.com/SuperManito/LinuxMirrors/main/ChangeMirrors.sh)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;3&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;4&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# Gitee 码云（国内推荐）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;5&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://gitee.com/SuperManito/LinuxMirrors/raw/main/ChangeMirrors.sh)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;6&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;7&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# GitCode（同步存在1小时延迟）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;8&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://raw.gitcode.com/SuperManito/LinuxMirrors/raw/main/ChangeMirrors.sh)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;9&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;10&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# jsDelivr CDN&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;11&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://cdn.jsdelivr.net/gh/SuperManito/LinuxMirrors@main/ChangeMirrors.sh)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;12&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;13&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# 腾讯云 EO CDN&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;14&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://edgeone.linuxmirrors.cn/main.sh)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;常见问题&lt;a href=&quot;#常见问题&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;section&gt;&lt;h4&gt;没有安装 curl？&lt;a href=&quot;#没有安装-curl&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;根据你的系统选择对应的安装命令：&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;span&gt;展开&lt;/span&gt;&lt;span&gt;收起&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# Debian 系 / openKylin&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;apt-get&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;install&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-y&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;3&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;4&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# RedHat 系 / openEuler / OpenCloudOS / Anolis OS&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;5&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;dnf&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;install&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-y&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; || &lt;/span&gt;&lt;span&gt;yum&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;install&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-y&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;6&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;7&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# openSUSE&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;8&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;zypper&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;install&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;9&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;10&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# Arch Linux / Manjaro&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;11&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;pacman&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-S&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;12&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;13&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# Alpine Linux&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;14&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;apk&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--no-cache&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;add&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-f&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;ncurses&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;15&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;16&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# Gentoo&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;17&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;emerge&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--ask&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;18&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;19&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# NixOS&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;20&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;nix-env&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-iA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;nixos.curl&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;span&gt;展开&lt;/span&gt;&lt;span&gt;收起&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;如果 curl 安装不上（系统源失效），可以用 Python 下载：&lt;/p&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;python3&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-c&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&quot;import urllib.request; urllib.request.urlretrieve(&apos;https://linuxmirrors.cn/main.sh&apos;, &apos;main.sh&apos;)&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;main.sh&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/section&gt;&lt;section&gt;&lt;h4&gt;还原已备份的软件源&lt;a href=&quot;#还原已备份的软件源&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;脚本会自动备份原有软件源配置文件，备份路径为原文件加 &lt;code&gt;.bak&lt;/code&gt; 后缀。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Debian 系：&lt;/strong&gt;&lt;/p&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;cp&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-rf&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;/etc/apt/sources.list.bak&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;/etc/apt/sources.list&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;apt-get&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;update&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;RedHat 系：&lt;/strong&gt;&lt;/p&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;cp&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-rf&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;/etc/yum.repos.d.bak&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;/etc/yum.repos.d&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;yum&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;makecache&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Arch Linux / Manjaro：&lt;/strong&gt;&lt;/p&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;cp&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-rf&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;/etc/pacman.d/mirrorlist.bak&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;/etc/pacman.d/mirrorlist&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;pacman&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-Sy&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;hr /&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;二、Docker 一键安装与换源&lt;a href=&quot;#二docker-一键安装与换源&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;section&gt;&lt;h3&gt;功能特性&lt;a href=&quot;#功能特性&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;集成安装 &lt;strong&gt;Docker Engine&lt;/strong&gt; 和 &lt;strong&gt;Docker Compose&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;支持选择或更换软件源（Docker 软件仓库）&lt;/li&gt;
+&lt;li&gt;支持更换镜像仓库（镜像加速器）&lt;/li&gt;
+&lt;li&gt;支持安装指定版本、重装等功能&lt;/li&gt;
+&lt;li&gt;支持 ARM 架构&lt;/li&gt;
+&lt;li&gt;完全替代官方安装脚本 &lt;code&gt;get.docker.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;支持国产衍生操作系统（Kylin Server、Huawei Cloud EulerOS、TencentOS Server、Alibaba Cloud Linux 等）&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;使用方法&lt;a href=&quot;#使用方法-1&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;section&gt;&lt;h4&gt;1. 安装 Docker 并换源&lt;a href=&quot;#1-安装-docker-并换源&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://linuxmirrors.cn/docker.sh)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/section&gt;&lt;section&gt;&lt;h4&gt;2. 仅更换镜像加速器（Docker 已安装）&lt;a href=&quot;#2-仅更换镜像加速器docker-已安装&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://linuxmirrors.cn/docker.sh)&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--only-registry&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;内置的国内镜像仓库源&lt;a href=&quot;#内置的国内镜像仓库源&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;站点名称&lt;/th&gt;&lt;th&gt;地址&lt;/th&gt;&lt;th&gt;说明&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;毫秒镜像&lt;/td&gt;&lt;td&gt;&lt;code&gt;docker.1ms.run&lt;/code&gt;&lt;/td&gt;&lt;td&gt;企业镜像站，CDN智能分发速度极快，推荐使用&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Docker Proxy&lt;/td&gt;&lt;td&gt;&lt;code&gt;dockerproxy.net&lt;/code&gt;&lt;/td&gt;&lt;td&gt;由 ghproxy 创建，可用性高&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DaoCloud 道客&lt;/td&gt;&lt;td&gt;&lt;code&gt;docker.m.daocloud.io&lt;/code&gt;&lt;/td&gt;&lt;td&gt;老牌企业镜像站，可用性高且速度快&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1Panel 镜像&lt;/td&gt;&lt;td&gt;&lt;code&gt;docker.1panel.live&lt;/code&gt;&lt;/td&gt;&lt;td&gt;企业产品自用镜像&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;阿里云镜像加速器&lt;a href=&quot;#阿里云镜像加速器&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;阿里云提供各区域的镜像加速器（需要登录阿里云控制台获取专属加速地址）：&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;区域&lt;/th&gt;&lt;th&gt;地址&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;杭州&lt;/td&gt;&lt;td&gt;&lt;code&gt;registry.cn-hangzhou.aliyuncs.com&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;上海&lt;/td&gt;&lt;td&gt;&lt;code&gt;registry.cn-shanghai.aliyuncs.com&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;北京&lt;/td&gt;&lt;td&gt;&lt;code&gt;registry.cn-beijing.aliyuncs.com&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;深圳&lt;/td&gt;&lt;td&gt;&lt;code&gt;registry.cn-shenzhen.aliyuncs.com&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;香港&lt;/td&gt;&lt;td&gt;&lt;code&gt;registry.cn-hongkong.aliyuncs.com&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;新加坡&lt;/td&gt;&lt;td&gt;&lt;code&gt;registry.ap-southeast-1.aliyuncs.com&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;日本-东京&lt;/td&gt;&lt;td&gt;&lt;code&gt;registry.ap-northeast-1.aliyuncs.com&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;…&lt;/td&gt;&lt;td&gt;更多区域请参考阿里云文档&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;命令选项（高级用法）&lt;a href=&quot;#命令选项高级用法&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://linuxmirrors.cn/docker.sh)&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--help&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;选项&lt;/th&gt;&lt;th&gt;含义&lt;/th&gt;&lt;th&gt;值&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;code&gt;--source&lt;/code&gt;&lt;/td&gt;&lt;td&gt;指定 Docker CE 软件源地址&lt;/td&gt;&lt;td&gt;域名或IP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;code&gt;--source-registry&lt;/code&gt;&lt;/td&gt;&lt;td&gt;指定 Docker 镜像仓库地址&lt;/td&gt;&lt;td&gt;域名或IP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;code&gt;--designated-version&lt;/code&gt;&lt;/td&gt;&lt;td&gt;指定 Docker Engine 安装版本&lt;/td&gt;&lt;td&gt;版本号&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;code&gt;--protocol&lt;/code&gt;&lt;/td&gt;&lt;td&gt;指定 Docker CE 软件源的 Web 协议&lt;/td&gt;&lt;td&gt;http 或 https&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;code&gt;--install-latest&lt;/code&gt;&lt;/td&gt;&lt;td&gt;是否安装最新版本的 Docker Engine&lt;/td&gt;&lt;td&gt;true 或 false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;code&gt;--close-firewall&lt;/code&gt;&lt;/td&gt;&lt;td&gt;是否关闭防火墙&lt;/td&gt;&lt;td&gt;true 或 false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;code&gt;--only-registry&lt;/code&gt;&lt;/td&gt;&lt;td&gt;仅更换镜像加速器&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;示例&lt;a href=&quot;#示例&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;1&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# 安装 Docker 并使用阿里云镜像加速器&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://linuxmirrors.cn/docker.sh)&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--source-registry&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;registry.cn-hangzhou.aliyuncs.com&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;3&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;4&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# 安装指定版本的 Docker&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;5&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://linuxmirrors.cn/docker.sh)&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--designated-version&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;24.0.7&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;6&lt;/div&gt;&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;7&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;# 仅更换镜像加速器为毫秒镜像&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;8&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;bash&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;(&lt;/span&gt;&lt;span&gt;curl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sSL&lt;/span&gt;&lt;span&gt; https://linuxmirrors.cn/docker.sh)&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--only-registry&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;--source-registry&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;docker.1ms.run&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;hr /&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;三、最佳实践&lt;a href=&quot;#三最佳实践&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;section&gt;&lt;h3&gt;软件源选择建议&lt;a href=&quot;#软件源选择建议&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果你不了解这些镜像站，建议：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;阿里云&lt;/strong&gt;：兼容性高、可用性强&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中国科学技术大学&lt;/strong&gt;：速度快&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;不要陷入测速焦虑&lt;/strong&gt;，内置的软件源一般不会有太大的差异。&lt;/p&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;使用流程&lt;a href=&quot;#使用流程&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;新装系统&lt;/strong&gt;：先运行换源脚本，再安装软件&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;安装 Docker&lt;/strong&gt;：直接运行 Docker 脚本，自动处理依赖&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;遇到问题&lt;/strong&gt;：脚本会自动备份原有配置，可以随时还原&lt;/li&gt;
+&lt;/ol&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;注意事项&lt;a href=&quot;#注意事项&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;需要 ROOT 权限&lt;/strong&gt;：请使用 &lt;code&gt;sudo -i&lt;/code&gt; 或 &lt;code&gt;su root&lt;/code&gt; 切换到 root 账户&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;不要通过 sudo 直接运行&lt;/strong&gt;：例如 &lt;code&gt;sudo bash &amp;lt;(curl...)&lt;/code&gt; 是错误的方式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker Compose 命令变化&lt;/strong&gt;：Docker Compose V2 已集成到 Docker CLI，使用 &lt;code&gt;docker compose&lt;/code&gt; 替代 &lt;code&gt;docker-compose&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;hr /&gt;&lt;/section&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;四、项目生态&lt;a href=&quot;#四项目生态&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;LinuxMirrors 已被广泛使用：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1Panel&lt;/strong&gt;：现代化的 Linux 服务器运维管理面板&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;宝塔面板&lt;/strong&gt;：流行的服务器管理软件&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;经过数年的技术沉淀与生产环境检验，广受社区好评，深得开发者喜爱。&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;总结&lt;a href=&quot;#总结&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;脚本&lt;/th&gt;&lt;th&gt;用途&lt;/th&gt;&lt;th&gt;命令&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Linux 换源&lt;/td&gt;&lt;td&gt;更换系统软件源&lt;/td&gt;&lt;td&gt;&lt;code&gt;bash &amp;lt;(curl -sSL https://linuxmirrors.cn/main.sh)&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Docker 安装&lt;/td&gt;&lt;td&gt;安装 Docker 并换源&lt;/td&gt;&lt;td&gt;&lt;code&gt;bash &amp;lt;(curl -sSL https://linuxmirrors.cn/docker.sh)&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Docker 换源&lt;/td&gt;&lt;td&gt;仅更换镜像加速器&lt;/td&gt;&lt;td&gt;&lt;code&gt;bash &amp;lt;(curl -sSL https://linuxmirrors.cn/docker.sh) --only-registry&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;strong&gt;让换源变得简单，让运维更加高效。&lt;/strong&gt; 🚀&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;相关链接&lt;a href=&quot;#相关链接&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;官网：&lt;a href=&quot;https://linuxmirrors.cn&quot; target=&quot;_blank&quot;&gt;https://linuxmirrors.cn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/SuperManito/LinuxMirrors&quot; target=&quot;_blank&quot;&gt;https://github.com/SuperManito/LinuxMirrors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gitee：&lt;a href=&quot;https://gitee.com/SuperManito/LinuxMirrors&quot; target=&quot;_blank&quot;&gt;https://gitee.com/SuperManito/LinuxMirrors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;问题反馈：&lt;a href=&quot;https://github.com/SuperManito/LinuxMirrors/issues&quot; target=&quot;_blank&quot;&gt;GitHub Issues&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;/section&gt;</content:encoded></item><item><title>我的音乐口味：前十名歌单分析</title><link>https://blog.winteroften.com/posts/my-music-taste-top10/</link><guid isPermaLink="true">https://blog.winteroften.com/posts/my-music-taste-top10/</guid><description>从独立民谣到电子流行，从日系清新到欧美另类——探索我的音乐世界</description><pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;section&gt;&lt;h1&gt;我的音乐口味：前十名歌单分析&lt;a href=&quot;#我的音乐口味前十名歌单分析&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;blockquote&gt;&lt;p&gt;音乐是情绪的出口，也是灵魂的回响。这是一份对我最常听歌曲的私人记录与解读。&lt;/p&gt;&lt;/blockquote&gt;&lt;hr /&gt;&lt;section&gt;&lt;h2&gt;写在前面&lt;a href=&quot;#写在前面&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;听歌这件事，有时候比文字更诚实。一首单曲循环几十遍、上百遍的歌，往往藏着某段时期最真实的自己。今天整理了一下 QQ 音乐的”我喜欢”列表，挑出前十名，写下我对每首歌的理解。&lt;/p&gt;&lt;p&gt;这份歌单没有固定风格，从中文独立民谣到日语电子流行，从欧美另类摇滚到器乐纯音——听起来可能有点”杂”，但这恰恰是我真实的样子：&lt;strong&gt;不拘于标签，只忠于感受。&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;1. 🥇 为霜 — 羽肿&lt;a href=&quot;#1--为霜--羽肿&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;时长：&lt;/strong&gt; 04:56　&lt;strong&gt;风格：&lt;/strong&gt; 中文独立民谣 / 氛围流行&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;《为霜》&lt;/strong&gt; 是我的第一名，也是我单曲循环次数最多的歌曲之一。&lt;/p&gt;&lt;p&gt;“为霜”二字出自《诗经》——“蒹葭苍苍，白露为霜”。整首歌的气质便如这诗句一般：清冷、疏离、带着一点点不可触及的美感。&lt;/p&gt;&lt;p&gt;羽肿是国内很低调的独立音乐人，他的作品大多没有激烈的高潮和宣泄的情绪，而是用温柔的旋律和留白，构建出一个安静而辽阔的空间。《为霜》前奏的钢琴声缓缓铺开，像是清晨薄雾中的湖面，然后人声轻轻进入，讲述一个关于距离和思念的故事。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么喜欢：&lt;/strong&gt;
 这首歌的情绪表达非常克制，不煽情却让人心软。“为霜”两个字本身就足够有画面感——露水凝结成霜，是自然中最细微也最诗意的变化。听这首歌的时候，我常常觉得时间慢下来了。&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;2. 🥈 为霜 (Inst.) — am&lt;a href=&quot;#2--为霜-inst--am&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;时长：&lt;/strong&gt; 05:15　&lt;strong&gt;风格：&lt;/strong&gt; 器乐 / 氛围纯音&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;纯器乐版的《为霜》，没有人声，只有音乐本身。&lt;/p&gt;&lt;p&gt;其实听完原版之后，我很长一段时间没有点开这个 instrumental 版本，直到某个深夜偶然点进去，才发现另一种美。没有了歌词的引导，每个人的感受都是私密的、自由的——钢琴、合成器、弦乐的编排像水墨画中的留白，意味全在声音之间的空隙里。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么喜欢：&lt;/strong&gt;
 有时候歌词是一种束缚，器乐版把那份想象空间完全还给了听者。这是一种很”成熟”的听音乐的方式——不需要别人告诉你该感受什么。&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;3. 🥉 The Other Side of Paradise — Glass Animals&lt;a href=&quot;#3--the-other-side-of-paradise--glass-animals&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;时长：&lt;/strong&gt; 05:20　&lt;strong&gt;专辑：&lt;/strong&gt; &lt;em&gt;How to Be a Human Being&lt;/em&gt; (2016)　&lt;strong&gt;风格：&lt;/strong&gt; 另类流行 / 艺术摇滚&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Glass Animals 是一个来自英国牛津的乐队，《How to Be a Human Being》是他们的第二张专辑，整张专辑的概念性极强——每一首歌都在讲述一个真实人物的故事。&lt;/p&gt;&lt;p&gt;《The Other Side of Paradise》是专辑中最有力量的一首。它讲述了一个派对男孩陷入虚无的故事：表面光鲜，内心空洞，在狂欢的尽头找不到自己。副歌的旋律极具记忆点，编曲中大量的合成器音效和人声处理让人联想到80年代的复古流行乐，但又不失现代感。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么喜欢：&lt;/strong&gt;
 这首歌有一种”表面热闹、内核孤独”的矛盾感，非常符合我对音乐复杂性的追求。Glass Animals 是我接触欧美独立音乐的重要入口，他们的专辑叙事方式也启发了我对”故事感”的理解。&lt;/p&gt;&lt;hr /&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;4. キミに溺れたい — 暖日 いな&lt;a href=&quot;#4-キミに溺れたい--暖日-いな&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;时长：&lt;/strong&gt; 03:07　&lt;strong&gt;风格：&lt;/strong&gt; 日系电子 / City Pop 复兴&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;日语歌名意思是”想要溺死在你的温柔里”——听起来很中二，但音乐本身却意外地清爽明快。&lt;/p&gt;&lt;p&gt;暖日 いな（いいぬ）是日本新生代的独立音乐人/制作人，他的音乐风格融合了 City Pop 的复古氛围和现代电子乐的精致感。这首歌节奏轻快，吉他和合成器的搭配让人联想到夏日傍晚骑行的感觉，但歌词又是关于沉溺和依恋的，形成了甜而不腻的反差。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么喜欢：&lt;/strong&gt;
