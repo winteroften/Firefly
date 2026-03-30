@@ -1,10 +1,16 @@
 ---
-title: "LinuxMirrors 一键换源脚本完全指南"
-description: "告别手动编辑源文件，一行命令搞定 Linux 系统换源与 Docker 安装"
+title: LinuxMirrors 一键换源脚本完全指南
+description: 告别手动编辑源文件，一行命令搞定 Linux 系统换源与 Docker 安装
 published: 2026-03-30
 updated: 2026-03-30
-tags: ["linux", "docker", "运维", "一键脚本", "换源"]
-category: "运维工具"
+tags:
+  - linux
+  - docker
+  - 运维
+  - 一键脚本
+  - 换源
+category: 运维工具
+image: api
 ---
 
 # LinuxMirrors 一键换源脚本完全指南
