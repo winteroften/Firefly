@@ -171,7 +171,7 @@ services:
       - L4D2_MANAGER_PORT=27020
       - L4D2_MANAGER_PASSWORD=你的自定义管理面板密码
       - L4D2_GAME_PATH=/left4dead2
-      - L4D2_RCON_URL=127.0.0.1:27015
+      - L4D2_RCON_URL=0.0.0.0:27015
       - L4D2_RCON_PASSWORD=你的自定义RCON密码
       - L4D2_RESTART_BY_RCON=true
 
