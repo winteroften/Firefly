@@ -226,7 +226,7 @@ pyinstaller --noconsole --onefile --name L4D2_VPK_Reader main.py
    - 检查表格中的所有数据无误
 
 2. **点击上传按钮**
-   - 点击底部绿色的 **确认修改并上传** 按钮
+   - 点击底部的 **确认修改并上传** 按钮
    - 程序将使用 Cloudflare Bulk API 批量上传数据
 
 3. **等待上传完成**
