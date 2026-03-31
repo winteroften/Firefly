@@ -10,7 +10,7 @@ tags:
   - 一键脚本
   - 换源
 category: 运维工具
-image: api
+image: ./linuxmirror.png
 ---
 
 # LinuxMirrors 一键换源脚本完全指南

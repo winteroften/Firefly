@@ -1,11 +1,19 @@
 ---
-title: "服务器 CPU 性能大比拼：Geekbench 5 跑分全面解析"
-description: "基于 YABS 测试脚本，深入对比 Intel Xeon 与 AMD EPYC 系列服务器的 CPU 单核/多核性能，并收录游戏云 CPU 权威跑分数据"
+title: 服务器 CPU 性能大比拼：Geekbench 5 跑分全面解析
+description: 基于 YABS 测试脚本，深入对比 Intel Xeon 与 AMD EPYC 系列服务器的 CPU 单核/多核性能，并收录游戏云 CPU 权威跑分数据
 published: 2026-03-30
 updated: 2026-03-30
-tags: ["服务器", "CPU", "geekbench5", "benchmark", "Intel Xeon", "AMD EPYC", "VPS", "游戏云"]
-category: "服务器评测"
-image: api
+tags:
+  - 服务器
+  - CPU
+  - geekbench5
+  - benchmark
+  - Intel Xeon
+  - AMD EPYC
+  - VPS
+  - 游戏云
+category: 服务器评测
+image: ./geekbench.png
 ---
 
 # 服务器 CPU 性能大比拼：Geekbench 5 跑分全面解析
