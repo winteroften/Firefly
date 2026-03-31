@@ -5,6 +5,7 @@ published: 2026-03-30
 updated: 2026-03-30
 tags: ["服务器", "CPU", "geekbench5", "benchmark", "Intel Xeon", "AMD EPYC", "VPS", "游戏云"]
 category: "服务器评测"
+image: api
 ---
 
 # 服务器 CPU 性能大比拼：Geekbench 5 跑分全面解析
