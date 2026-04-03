@@ -9,7 +9,7 @@ tags:
   - ASN
   - AS45090
 category: 网络技术
-image: ./tencent-cloud-ip-ranges.jpg
+image: ./tencent-cloud.jpg
 ---
 
 # 腾讯云 IP 地址段分布图鉴：一份来自 AS45090 的地址簿
