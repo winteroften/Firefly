@@ -2,7 +2,7 @@
 title: 2026广东网络治理风暴：全省整治违规跨境访问，IDC 行业迎来“拔线潮”
 published: 2026-04-03
 description: 解析2026年4月广东地区针对违规跨境访问的专项整治行动，包括运营商告知函内容、多地机房关停现状及对用户的影响。
-image: './images/guangdong-network-security-2026_1.jpg'
+image: '../images/guangdong-network-security-2026_1.jpg'
 tags:
   - 网络安全
   - 广东
@@ -29,7 +29,7 @@ lang: zh_CN
 
 在这场治理行动中，最引人注目的是一份名为**《关于配合运营商全省网络安全专项治理工作的告知函》**的文件。
 
-![告知函内容](./images/guangdong-network-security-2026_1.jpg)
+![告知函内容](../images/guangdong-network-security-2026_1.jpg)
 
 这份文件明确指出：
 - **生效时间**：自2026年4月1日起。
@@ -49,13 +49,13 @@ lang: zh_CN
 
 根据流出的通报显示，广州机房已开始执行“通报即关机”的政策，甚至连 top3 级别的大型云厂商资源也被紧急拔线。这种“不分规模、只看违规”的做法，让许多依靠海外节点进行业务交付的中小企业措手不及。
 
-![广州、深圳机房动态](./images/guangdong-network-security-2026_2.jpg)
+![广州、深圳机房动态](../images/guangdong-network-security-2026_2.jpg)
 
 ### 2. 东莞与周边：系统性清退
 
 东莞移动等运营商也发布了全系下架清退的通知，受“不可抗力”影响，大量资源处于“择日恢复”的无限期等待中。
 
-![东莞移动动态](./images/guangdong-network-security-2026_3.jpg)
+![东莞移动动态](../images/guangdong-network-security-2026_3.jpg)
 
 ---
 
@@ -65,7 +65,7 @@ lang: zh_CN
 
 以往的治理往往针对具体的违规 IP，而此次通报中提到：“后续所有客户出现通报一律拔线整个区域，无退款！”
 
-![连坐机制通报](./images/guangdong-network-security-2026_4.jpg)
+![连坐机制通报](../images/guangdong-network-security-2026_4.jpg)
 
 这意味着，即便你的业务是合规的，如果你的服务器所在的整个区域或子网中存在大量违规行为，你也有可能面临“池鱼之殃”。这种高压策略旨在逼迫所有接入商和用户进行严格的自查。
 
