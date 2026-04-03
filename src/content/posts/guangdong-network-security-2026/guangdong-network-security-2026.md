@@ -49,13 +49,13 @@ lang: zh_CN
 
 根据流出的通报显示，广州机房已开始执行“通报即关机”的政策，甚至连 top3 级别的大型云厂商资源也被紧急拔线。这种“不分规模、只看违规”的做法，让许多依靠海外节点进行业务交付的中小企业措手不及。
 
-![广州、深圳机房动态](../images/guangdong-network-security-2026_2.jpg)
+![广州、深圳机房动态](../images/guangdong-network-security-2026_3.jpg)
 
 ### 2. 东莞与周边：系统性清退
 
 东莞移动等运营商也发布了全系下架清退的通知，受“不可抗力”影响，大量资源处于“择日恢复”的无限期等待中。
 
-![东莞移动动态](../images/guangdong-network-security-2026_3.jpg)
+![东莞移动动态](../images/guangdong-network-security-2026_2.jpg)
 
 ---
 
